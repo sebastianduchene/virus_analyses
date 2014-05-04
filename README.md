@@ -7,6 +7,19 @@ HIV/EIV
 
 Load data
 
+```r
+hiv_dat <- read.table("hiv/models_hiv.txt", head = T, as.is = T)
+
+
+hiv_dat$file <- toupper(hiv_dat$file)
+
+cases.pol <- grepl("POL|GAG", hiv_dat$file)
+cases.env <- grepl("ENV", hiv_dat$file)
+scales <- sapply(hiv_dat$file, function(x) strsplit(x, "[.]")[[1]][1])
+
+tr_ts <- (hiv_dat$Q2 + hiv_dat$Q5)/(hiv_dat$Q1 + hiv_dat$Q3 + hiv_dat$Q4 + hiv_dat$Q6)
+hiv_dat <- cbind(hiv_dat, tr_ts)
+```
 
 
 
@@ -34,7 +47,7 @@ legend(1, 2, legend = c(expression(italic(ENV)), expression(italic(POL))), text.
     0, 0, 0.8), rgb(0, 0, 1, 0.8)), bty = "n")
 ```
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 
 
@@ -57,7 +70,7 @@ legend(1, -0.5, legend = c(expression(italic(ENV)), expression(italic(POL))),
     text.col = c(rgb(1, 0, 0, 0.8), rgb(0, 0, 1, 0.8)), bty = "n")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
 
 
 
@@ -81,7 +94,7 @@ legend(1, -0.5, legend = c(expression(italic(ENV)), expression(italic(POL))),
     text.col = c(rgb(1, 0, 0, 0.8), rgb(0, 0, 1, 0.8)), bty = "n")
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 
 
 EIV
@@ -137,7 +150,7 @@ text(axTicks(1), 0.58, labels = c("Outbreak", "", "Intrahost", "", "Global"),
 axis(2)
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
 
 
 
@@ -155,7 +168,7 @@ text(axTicks(1), -1.35, labels = c("Outbreak", "", "Intrahost", "", "Global"),
     xpd = T, cex = 0.7)
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7.png) 
 
 
 ![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
@@ -177,7 +190,7 @@ mtext(expression(paste(bold("Fig 6. "), italic(dN/dS), " vs.", italic(Ts/Tv))),
     side = 1, line = 4.5)
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7.png) 
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8.png) 
 
 
 
