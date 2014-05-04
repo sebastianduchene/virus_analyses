@@ -12,6 +12,7 @@ Load data
 
 Run plots with log10 transformation
 
+
 ```r
 tr_ts_scale <- cbind(factor(scales), tr_ts)
 
@@ -36,6 +37,8 @@ legend(1, 2, legend = c(expression(italic(ENV)), expression(italic(POL))), text.
 
 
 
+
+
 ```r
 ### KA Ks ratio plot
 plot(jitter(as.numeric(gsub("SC", "", scales))), log10(hiv_dat$meanKaks), col = c(rgb(1, 
@@ -54,6 +57,9 @@ legend(1, -0.5, legend = c(expression(italic(ENV)), expression(italic(POL))),
 ```
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+
+
+
 
 
 
@@ -111,7 +117,9 @@ print(eiv_dat)
 ```
 
 
+
 Run similar plots to those for the previous data set
+
 
 
 ```r
@@ -149,6 +157,10 @@ text(axTicks(1), -1.35, labels = c("Outbreak", "", "Intrahost", "", "Global"),
 ![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
 
 
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+
+
+
 
 ```r
 ### TsTv dNdS plot
@@ -165,4 +177,6 @@ mtext(expression(paste(bold("Fig 6. "), italic(dN/dS), " vs.", italic(Ts/Tv))),
 ```
 
 ![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7.png) 
+
+
 
