@@ -1,0 +1,3 @@
+library(seqinr)
+
+dat_temp <- read.alignment("sc1.ENV.fasta", format = "fasta")

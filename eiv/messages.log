@@ -1,0 +1,709 @@
+
+Variable 'DATAFILE_TREE' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'methodIndex' was not initialized prior to being used
+Variable 'ds0.sites' was not initialized prior to being used
+Overwritten previously defined function:'avlToLabels'
+Overwritten previously defined function:'avlKeysToMatrix'
+Overwritten previously defined function:'avlToString'
+Overwritten previously defined function:'avlToRow'
+Overwritten previously defined function:'splitFilePath'
+Overwritten previously defined function:'fixGlobalParameters'
+Overwritten previously defined function:'promptForGlobalParameters'
+Overwritten previously defined function:'echoGlobalParameters'
+Overwritten previously defined function:'stashGlobalParameters'
+Overwritten previously defined function:'defineIfNeeded'
+Overwritten previously defined function:'restoreGlobalParameters'
+Overwritten previously defined function:'stringMatrixToAVL'
+Overwritten previously defined function:'avlToMatrix'
+Overwritten previously defined function:'_standardizeRatio'
+Overwritten previously defined function:'_copyws'
+Overwritten previously defined function:'_mapNumberToString'
+Overwritten previously defined function:'_normalizeRatio'
+Overwritten previously defined function:'AVL2Matrix'
+Overwritten previously defined function:'mapModelKeyToString'
+Overwritten previously defined function:'updateStatusLine'
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'totalCharCount' was not initialized prior to being used
+Variable 'totalCodonCount' was not initialized prior to being used
+Variable 'totalUniqueSites' was not initialized prior to being used
+Variable 'ModelMatrixDimension' was not initialized prior to being used
+Model NucModel assigned to TX0
+Model NucModel assigned to TX1
+Model NucModel assigned to Node11
+Model NucModel assigned to TX51
+Model NucModel assigned to Node10
+Model NucModel assigned to TX6
+Model NucModel assigned to Node9
+Model NucModel assigned to TX39
+Model NucModel assigned to Node8
+Model NucModel assigned to TX10
+Model NucModel assigned to Node7
+Model NucModel assigned to TX11
+Model NucModel assigned to Node6
+Model NucModel assigned to TX14
+Model NucModel assigned to Node5
+Model NucModel assigned to TX17
+Model NucModel assigned to Node4
+Model NucModel assigned to TX21
+Model NucModel assigned to Node3
+Model NucModel assigned to TX24
+Model NucModel assigned to Node2
+Model NucModel assigned to TX2
+Model NucModel assigned to TX8
+Model NucModel assigned to TX20
+Model NucModel assigned to Node38
+Model NucModel assigned to TX25
+Model NucModel assigned to Node37
+Model NucModel assigned to TX26
+Model NucModel assigned to Node36
+Model NucModel assigned to TX33
+Model NucModel assigned to Node35
+Model NucModel assigned to TX36
+Model NucModel assigned to Node34
+Model NucModel assigned to TX37
+Model NucModel assigned to TX40
+Model NucModel assigned to TX41
+Model NucModel assigned to TX43
+Model NucModel assigned to TX44
+Model NucModel assigned to TX45
+Model NucModel assigned to TX46
+Model NucModel assigned to TX48
+Model NucModel assigned to TX49
+Model NucModel assigned to Node59
+Model NucModel assigned to Node57
+Model NucModel assigned to Node55
+Model NucModel assigned to Node53
+Model NucModel assigned to Node51
+Model NucModel assigned to Node49
+Model NucModel assigned to Node47
+Model NucModel assigned to Node45
+Model NucModel assigned to Node33
+Model NucModel assigned to TX52
+Model NucModel assigned to Node32
+Model NucModel assigned to Node30
+Model NucModel assigned to TX4
+Model NucModel assigned to Node29
+Model NucModel assigned to TX7
+Model NucModel assigned to Node28
+Model NucModel assigned to TX35
+Model NucModel assigned to Node27
+Model NucModel assigned to TX12
+Model NucModel assigned to Node26
+Model NucModel assigned to TX15
+Model NucModel assigned to Node25
+Model NucModel assigned to TX18
+Model NucModel assigned to Node24
+Model NucModel assigned to TX22
+Model NucModel assigned to Node23
+Model NucModel assigned to Node1
+Model NucModel assigned to TX3
+Model NucModel assigned to TX29
+Model NucModel assigned to TX53
+Model NucModel assigned to Node80
+Model NucModel assigned to Node78
+Model NucModel assigned to TX5
+Model NucModel assigned to Node77
+Model NucModel assigned to TX42
+Model NucModel assigned to Node76
+Model NucModel assigned to TX38
+Model NucModel assigned to Node75
+Model NucModel assigned to TX32
+Model NucModel assigned to Node74
+Model NucModel assigned to TX31
+Model NucModel assigned to Node73
+Model NucModel assigned to TX30
+Model NucModel assigned to Node72
+Model NucModel assigned to TX28
+Model NucModel assigned to Node71
+Model NucModel assigned to TX27
+Model NucModel assigned to Node70
+Model NucModel assigned to TX9
+Model NucModel assigned to TX47
+Model NucModel assigned to TX50
+Model NucModel assigned to Node98
+Model NucModel assigned to Node96
+Model NucModel assigned to TX34
+Model NucModel assigned to Node95
+Model NucModel assigned to TX13
+Model NucModel assigned to Node94
+Model NucModel assigned to TX16
+Model NucModel assigned to Node93
+Model NucModel assigned to TX19
+Model NucModel assigned to Node92
+Model NucModel assigned to TX23
+Model NucModel assigned to Node91
+The tips of the tree:nucTree_1 were matched with the species names from the data as follows {0,1,51,6,39,10,11,14,17,21,24,2,8,20,25,26,33,36,37,40,41,43,44,45,46,48,49,52,4,7,35,12,15,18,22,3,29,53,5,42,38,32,31,30,28,27,9,47,50,34,13,16,19,23}
+
+Pseudo-optimal path's cost 550 vs 744 for 1..k=> a 1.35273 x improvement
+Partition  reversible model flag computed as 1
+Variable 'nucLF' was not initialized prior to being used
+Variable 'nucTree_1.TX0.t' was not initialized prior to being used
+Variable 'nucTree_1.TX1.t' was not initialized prior to being used
+Variable 'nucTree_1.TX51.t' was not initialized prior to being used
+Variable 'nucTree_1.TX6.t' was not initialized prior to being used
+Variable 'nucTree_1.TX39.t' was not initialized prior to being used
+Variable 'nucTree_1.TX10.t' was not initialized prior to being used
+Variable 'nucTree_1.TX11.t' was not initialized prior to being used
+Variable 'nucTree_1.TX14.t' was not initialized prior to being used
+Variable 'nucTree_1.TX17.t' was not initialized prior to being used
+Variable 'nucTree_1.TX21.t' was not initialized prior to being used
+Variable 'nucTree_1.TX24.t' was not initialized prior to being used
+Variable 'nucTree_1.TX2.t' was not initialized prior to being used
+Variable 'nucTree_1.TX8.t' was not initialized prior to being used
+Variable 'nucTree_1.TX20.t' was not initialized prior to being used
+Variable 'nucTree_1.TX25.t' was not initialized prior to being used
+Variable 'nucTree_1.TX26.t' was not initialized prior to being used
+Variable 'nucTree_1.TX33.t' was not initialized prior to being used
+Variable 'nucTree_1.TX36.t' was not initialized prior to being used
+Variable 'nucTree_1.TX37.t' was not initialized prior to being used
+Variable 'nucTree_1.TX40.t' was not initialized prior to being used
+Variable 'nucTree_1.TX41.t' was not initialized prior to being used
+Variable 'nucTree_1.TX43.t' was not initialized prior to being used
+Variable 'nucTree_1.TX44.t' was not initialized prior to being used
+Variable 'nucTree_1.TX45.t' was not initialized prior to being used
+Variable 'nucTree_1.TX46.t' was not initialized prior to being used
+Variable 'nucTree_1.TX48.t' was not initialized prior to being used
+Variable 'nucTree_1.TX49.t' was not initialized prior to being used
+Variable 'nucTree_1.TX52.t' was not initialized prior to being used
+Variable 'nucTree_1.TX4.t' was not initialized prior to being used
+Variable 'nucTree_1.TX7.t' was not initialized prior to being used
+Variable 'nucTree_1.TX35.t' was not initialized prior to being used
+Variable 'nucTree_1.TX12.t' was not initialized prior to being used
+Variable 'nucTree_1.TX15.t' was not initialized prior to being used
+Variable 'nucTree_1.TX18.t' was not initialized prior to being used
+Variable 'nucTree_1.TX22.t' was not initialized prior to being used
+Variable 'nucTree_1.TX3.t' was not initialized prior to being used
+Variable 'nucTree_1.TX29.t' was not initialized prior to being used
+Variable 'nucTree_1.TX53.t' was not initialized prior to being used
+Variable 'nucTree_1.TX5.t' was not initialized prior to being used
+Variable 'nucTree_1.TX42.t' was not initialized prior to being used
+Variable 'nucTree_1.TX38.t' was not initialized prior to being used
+Variable 'nucTree_1.TX32.t' was not initialized prior to being used
+Variable 'nucTree_1.TX31.t' was not initialized prior to being used
+Variable 'nucTree_1.TX30.t' was not initialized prior to being used
+Variable 'nucTree_1.TX28.t' was not initialized prior to being used
+Variable 'nucTree_1.TX27.t' was not initialized prior to being used
+Variable 'nucTree_1.TX9.t' was not initialized prior to being used
+Variable 'nucTree_1.TX47.t' was not initialized prior to being used
+Variable 'nucTree_1.TX50.t' was not initialized prior to being used
+Variable 'nucTree_1.TX34.t' was not initialized prior to being used
+Variable 'nucTree_1.TX13.t' was not initialized prior to being used
+Variable 'nucTree_1.TX16.t' was not initialized prior to being used
+Variable 'nucTree_1.TX19.t' was not initialized prior to being used
+Variable 'nucTree_1.TX23.t' was not initialized prior to being used
+Variable 'nucTree_1.Node11.t' was not initialized prior to being used
+Variable 'nucTree_1.Node10.t' was not initialized prior to being used
+Variable 'nucTree_1.Node9.t' was not initialized prior to being used
+Variable 'nucTree_1.Node8.t' was not initialized prior to being used
+Variable 'nucTree_1.Node7.t' was not initialized prior to being used
+Variable 'nucTree_1.Node6.t' was not initialized prior to being used
+Variable 'nucTree_1.Node5.t' was not initialized prior to being used
+Variable 'nucTree_1.Node4.t' was not initialized prior to being used
+Variable 'nucTree_1.Node3.t' was not initialized prior to being used
+Variable 'nucTree_1.Node2.t' was not initialized prior to being used
+Variable 'nucTree_1.Node38.t' was not initialized prior to being used
+Variable 'nucTree_1.Node37.t' was not initialized prior to being used
+Variable 'nucTree_1.Node36.t' was not initialized prior to being used
+Variable 'nucTree_1.Node35.t' was not initialized prior to being used
+Variable 'nucTree_1.Node34.t' was not initialized prior to being used
+Variable 'nucTree_1.Node59.t' was not initialized prior to being used
+Variable 'nucTree_1.Node57.t' was not initialized prior to being used
+Variable 'nucTree_1.Node55.t' was not initialized prior to being used
+Variable 'nucTree_1.Node53.t' was not initialized prior to being used
+Variable 'nucTree_1.Node51.t' was not initialized prior to being used
+Variable 'nucTree_1.Node49.t' was not initialized prior to being used
+Variable 'nucTree_1.Node47.t' was not initialized prior to being used
+Variable 'nucTree_1.Node45.t' was not initialized prior to being used
+Variable 'nucTree_1.Node33.t' was not initialized prior to being used
+Variable 'nucTree_1.Node32.t' was not initialized prior to being used
+Variable 'nucTree_1.Node30.t' was not initialized prior to being used
+Variable 'nucTree_1.Node29.t' was not initialized prior to being used
+Variable 'nucTree_1.Node28.t' was not initialized prior to being used
+Variable 'nucTree_1.Node27.t' was not initialized prior to being used
+Variable 'nucTree_1.Node26.t' was not initialized prior to being used
+Variable 'nucTree_1.Node25.t' was not initialized prior to being used
+Variable 'nucTree_1.Node24.t' was not initialized prior to being used
+Variable 'nucTree_1.Node23.t' was not initialized prior to being used
+Variable 'nucTree_1.Node1.t' was not initialized prior to being used
+Variable 'nucTree_1.Node80.t' was not initialized prior to being used
+Variable 'nucTree_1.Node78.t' was not initialized prior to being used
+Variable 'nucTree_1.Node77.t' was not initialized prior to being used
+Variable 'nucTree_1.Node76.t' was not initialized prior to being used
+Variable 'nucTree_1.Node75.t' was not initialized prior to being used
+Variable 'nucTree_1.Node74.t' was not initialized prior to being used
+Variable 'nucTree_1.Node73.t' was not initialized prior to being used
+Variable 'nucTree_1.Node72.t' was not initialized prior to being used
+Variable 'nucTree_1.Node71.t' was not initialized prior to being used
+Variable 'nucTree_1.Node70.t' was not initialized prior to being used
+Variable 'nucTree_1.Node98.t' was not initialized prior to being used
+Variable 'nucTree_1.Node96.t' was not initialized prior to being used
+Variable 'nucTree_1.Node95.t' was not initialized prior to being used
+Variable 'nucTree_1.Node94.t' was not initialized prior to being used
+Variable 'nucTree_1.Node93.t' was not initialized prior to being used
+Variable 'nucTree_1.Node92.t' was not initialized prior to being used
+Variable 'nucTree_1.Node91.t' was not initialized prior to being used
+Site 6 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Set GUI update interval to every 306-th LF evaluation.
+Initial guess for nucTree_1.Node1.t is 2.518717884976798e-008
+Initial guess for nucTree_1.Node2.t is -3.455586074400431e-008
+Initial guess for nucTree_1.Node3.t is 3.071502030039326e-009
+Initial guess for nucTree_1.Node4.t is 3.668738544839309e-009
+Initial guess for nucTree_1.Node5.t is 4.511864794717377e-009
+Initial guess for nucTree_1.Node6.t is 5.759827396897596e-009
+Initial guess for nucTree_1.Node7.t is 7.727768425822892e-009
+Initial guess for nucTree_1.Node8.t is 1.111852395721307e-008
+Initial guess for nucTree_1.Node9.t is 1.778963833810819e-008
+Initial guess for nucTree_1.Node10.t is 3.418401092557032e-008
+Initial guess for nucTree_1.Node11.t is 9.860772379668444e-008
+Initial guess for nucTree_1.TX0.t is -1.934228428409113e-007
+Initial guess for nucTree_1.TX1.t is 0.0007390344809498769
+Initial guess for nucTree_1.TX51.t is -9.860772380562313e-008
+Initial guess for nucTree_1.TX6.t is -6.705325218205184e-008
+Initial guess for nucTree_1.TX39.t is -5.131626442138589e-008
+Initial guess for nucTree_1.TX10.t is -4.190828261143277e-008
+Initial guess for nucTree_1.TX11.t is -3.566662349828792e-008
+Initial guess for nucTree_1.TX14.t is -3.12359870391249e-008
+Initial guess for nucTree_1.TX17.t is -2.793885507374637e-008
+Initial guess for nucTree_1.TX21.t is -2.539895915812784e-008
+Initial guess for nucTree_1.TX24.t is -2.33906693692243e-008
+Initial guess for nucTree_1.Node23.t is 3.433831981264739e-008
+Initial guess for nucTree_1.Node24.t is 3.70693881354949e-009
+Initial guess for nucTree_1.Node25.t is 3.806231814598484e-009
+Initial guess for nucTree_1.Node26.t is 3.933106193911499e-009
+Initial guess for nucTree_1.Node27.t is 4.091404619760251e-009
+Initial guess for nucTree_1.Node28.t is 4.286233396029931e-009
+Initial guess for nucTree_1.Node29.t is 4.524357468801796e-009
+Initial guess for nucTree_1.Node30.t is 4.814772306307527e-009
+Initial guess for nucTree_1.TX2.t is -5.66661663931545e-008
+Initial guess for nucTree_1.Node32.t is 5.169545006158283e-009
+Initial guess for nucTree_1.Node33.t is 0.000738899911388593
+Initial guess for nucTree_1.Node34.t is 7.919935838161165e-018
+Initial guess for nucTree_1.Node35.t is -1.797522956248759e-017
+Initial guess for nucTree_1.Node36.t is -5.547008187900711e-018
+Initial guess for nucTree_1.Node37.t is 1.327683697169082e-017
+Initial guess for nucTree_1.Node38.t is 1.737349060288186e-017
+Initial guess for nucTree_1.TX8.t is -6.856204444508116e-018
+Initial guess for nucTree_1.TX20.t is -6.83699511427098e-018
+Initial guess for nucTree_1.TX25.t is 9.81941512183032e-018
+Initial guess for nucTree_1.TX26.t is 2.203764362450268e-017
+Initial guess for nucTree_1.TX33.t is 1.722605282413778e-017
+Initial guess for nucTree_1.TX36.t is 1.927983962449252e-018
+Initial guess for nucTree_1.Node45.t is 2.501747356880691e-017
+Initial guess for nucTree_1.TX37.t is -8.991536019175345e-018
+Initial guess for nucTree_1.Node47.t is -1.646594620741646e-018
+Initial guess for nucTree_1.TX40.t is -7.700643005579001e-018
+Initial guess for nucTree_1.Node49.t is 3.092787592526019e-018
+Initial guess for nucTree_1.TX41.t is -1.005858034285589e-017
+Initial guess for nucTree_1.Node51.t is -6.726417806570736e-018
+Initial guess for nucTree_1.TX43.t is -4.677289335348435e-018
+Initial guess for nucTree_1.Node53.t is -2.571226797716391e-017
+Initial guess for nucTree_1.TX44.t is 1.707177693922336e-017
+Initial guess for nucTree_1.Node55.t is -6.191521708231064e-018
+Initial guess for nucTree_1.TX45.t is 2.260797848670141e-017
+Initial guess for nucTree_1.Node57.t is 1.21064741232569e-017
+Initial guess for nucTree_1.TX46.t is 1.142736704006038e-017
+Initial guess for nucTree_1.Node59.t is 2.146462130852415e-017
+Initial guess for nucTree_1.TX48.t is -9.250919367131623e-018
+Initial guess for nucTree_1.TX49.t is -9.254059492601726e-018
+Initial guess for nucTree_1.TX52.t is -5.885328158804578e-008
+Initial guess for nucTree_1.TX4.t is -5.481433089070858e-008
+Initial guess for nucTree_1.TX7.t is -5.324820715151202e-008
+Initial guess for nucTree_1.TX35.t is -5.192936610658051e-008
+Initial guess for nucTree_1.TX12.t is -5.082783409356442e-008
+Initial guess for nucTree_1.TX15.t is -4.992019420267031e-008
+Initial guess for nucTree_1.TX18.t is -4.918822654601666e-008
+Initial guess for nucTree_1.TX22.t is -4.861792826699655e-008
+Initial guess for nucTree_1.Node70.t is -4.714945017041839e-008
+Initial guess for nucTree_1.Node71.t is 3.071502032071592e-009
+Initial guess for nucTree_1.Node72.t is 3.668738544516895e-009
+Initial guess for nucTree_1.Node73.t is 4.511864794429598e-009
+Initial guess for nucTree_1.Node74.t is 5.75982739747424e-009
+Initial guess for nucTree_1.Node75.t is 7.727768425482146e-009
+Initial guess for nucTree_1.Node76.t is 1.111852395997122e-008
+Initial guess for nucTree_1.Node77.t is 1.778963833525947e-008
+Initial guess for nucTree_1.Node78.t is 3.418401092558604e-008
+Initial guess for nucTree_1.TX3.t is -9.860772380558726e-008
+Initial guess for nucTree_1.Node80.t is 9.860772380768938e-008
+Initial guess for nucTree_1.TX29.t is 0.0007390344809498662
+Initial guess for nucTree_1.TX53.t is -1.934228428514491e-007
+Initial guess for nucTree_1.TX5.t is -6.705325218196498e-008
+Initial guess for nucTree_1.TX42.t is -5.131626442385298e-008
+Initial guess for nucTree_1.TX38.t is -4.190828261156751e-008
+Initial guess for nucTree_1.TX32.t is -3.566662349868006e-008
+Initial guess for nucTree_1.TX31.t is -3.123598703908128e-008
+Initial guess for nucTree_1.TX30.t is -2.793885507392158e-008
+Initial guess for nucTree_1.TX28.t is -2.539895915849454e-008
+Initial guess for nucTree_1.TX27.t is -2.339066936829352e-008
+Initial guess for nucTree_1.Node91.t is 9.134230644792955e-009
+Initial guess for nucTree_1.Node92.t is 1.089431906307178e-008
+Initial guess for nucTree_1.Node93.t is 1.461654474801431e-008
+Initial guess for nucTree_1.Node94.t is 2.102992662709054e-008
+Initial guess for nucTree_1.Node95.t is 3.36478826058868e-008
+Initial guess for nucTree_1.Node96.t is 6.465671559239508e-008
+Initial guess for nucTree_1.TX9.t is -1.86509756518158e-007
+Initial guess for nucTree_1.Node98.t is 1.865097565228667e-007
+Initial guess for nucTree_1.TX47.t is -3.658460608670602e-007
+Initial guess for nucTree_1.TX50.t is 0.001479165328436058
+Initial guess for nucTree_1.TX34.t is -1.268266344328641e-007
+Initial guess for nucTree_1.TX13.t is -9.70611998199632e-008
+Initial guess for nucTree_1.TX16.t is -7.926664652012696e-008
+Initial guess for nucTree_1.TX19.t is -6.746097576210913e-008
+Initial guess for nucTree_1.TX23.t is -5.908073032898337e-008
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+CT = 1
+GT = 1
+CG = 1
+AC = 1
+AT = 1
+nucTree_1.TX0.t = 0
+nucTree_1.TX1.t = 0.0007390344809498769
+nucTree_1.Node11.t = 9.860772379668444e-008
+nucTree_1.TX51.t = 0
+nucTree_1.Node10.t = 3.418401092557032e-008
+nucTree_1.TX6.t = 0
+nucTree_1.Node9.t = 1.778963833810819e-008
+nucTree_1.TX39.t = 0
+nucTree_1.Node8.t = 1.111852395721307e-008
+nucTree_1.TX10.t = 0
+nucTree_1.Node7.t = 7.727768425822892e-009
+nucTree_1.TX11.t = 0
+nucTree_1.Node6.t = 5.759827396897596e-009
+nucTree_1.TX14.t = 0
+nucTree_1.Node5.t = 4.511864794717377e-009
+nucTree_1.TX17.t = 0
+nucTree_1.Node4.t = 3.668738544839309e-009
+nucTree_1.TX21.t = 0
+nucTree_1.Node3.t = 3.071502030039326e-009
+nucTree_1.TX24.t = 0
+nucTree_1.Node2.t = 0
+nucTree_1.TX2.t = 0
+nucTree_1.TX8.t = 0
+nucTree_1.TX20.t = 0
+nucTree_1.Node38.t = 1.737349060288186e-017
+nucTree_1.TX25.t = 9.81941512183032e-018
+nucTree_1.Node37.t = 1.327683697169082e-017
+nucTree_1.TX26.t = 2.203764362450268e-017
+nucTree_1.Node36.t = 0
+nucTree_1.TX33.t = 1.722605282413778e-017
+nucTree_1.Node35.t = 0
+nucTree_1.TX36.t = 1.927983962449252e-018
+nucTree_1.Node34.t = 7.919935838161165e-018
+nucTree_1.TX37.t = 0
+nucTree_1.TX40.t = 0
+nucTree_1.TX41.t = 0
+nucTree_1.TX43.t = 0
+nucTree_1.TX44.t = 1.707177693922336e-017
+nucTree_1.TX45.t = 2.260797848670141e-017
+nucTree_1.TX46.t = 1.142736704006038e-017
+nucTree_1.TX48.t = 0
+nucTree_1.TX49.t = 0
+nucTree_1.Node59.t = 2.146462130852415e-017
+nucTree_1.Node57.t = 1.21064741232569e-017
+nucTree_1.Node55.t = 0
+nucTree_1.Node53.t = 0
+nucTree_1.Node51.t = 0
+nucTree_1.Node49.t = 3.092787592526019e-018
+nucTree_1.Node47.t = 0
+nucTree_1.Node45.t = 2.501747356880691e-017
+nucTree_1.Node33.t = 0.000738899911388593
+nucTree_1.TX52.t = 0
+nucTree_1.Node32.t = 5.169545006158283e-009
+nucTree_1.Node30.t = 4.814772306307527e-009
+nucTree_1.TX4.t = 0
+nucTree_1.Node29.t = 4.524357468801796e-009
+nucTree_1.TX7.t = 0
+nucTree_1.Node28.t = 4.286233396029931e-009
+nucTree_1.TX35.t = 0
+nucTree_1.Node27.t = 4.091404619760251e-009
+nucTree_1.TX12.t = 0
+nucTree_1.Node26.t = 3.933106193911499e-009
+nucTree_1.TX15.t = 0
+nucTree_1.Node25.t = 3.806231814598484e-009
+nucTree_1.TX18.t = 0
+nucTree_1.Node24.t = 3.70693881354949e-009
+nucTree_1.TX22.t = 0
+nucTree_1.Node23.t = 3.433831981264739e-008
+nucTree_1.Node1.t = 2.518717884976798e-008
+nucTree_1.TX3.t = 0
+nucTree_1.TX29.t = 0.0007390344809498662
+nucTree_1.TX53.t = 0
+nucTree_1.Node80.t = 9.860772380768938e-008
+nucTree_1.Node78.t = 3.418401092558604e-008
+nucTree_1.TX5.t = 0
+nucTree_1.Node77.t = 1.778963833525947e-008
+nucTree_1.TX42.t = 0
+nucTree_1.Node76.t = 1.111852395997122e-008
+nucTree_1.TX38.t = 0
+nucTree_1.Node75.t = 7.727768425482146e-009
+nucTree_1.TX32.t = 0
+nucTree_1.Node74.t = 5.75982739747424e-009
+nucTree_1.TX31.t = 0
+nucTree_1.Node73.t = 4.511864794429598e-009
+nucTree_1.TX30.t = 0
+nucTree_1.Node72.t = 3.668738544516895e-009
+nucTree_1.TX28.t = 0
+nucTree_1.Node71.t = 3.071502032071592e-009
+nucTree_1.TX27.t = 0
+nucTree_1.Node70.t = 0
+nucTree_1.TX9.t = 0
+nucTree_1.TX47.t = 0
+nucTree_1.TX50.t = 0.001479165328436058
+nucTree_1.Node98.t = 1.865097565228667e-007
+nucTree_1.Node96.t = 6.465671559239508e-008
+nucTree_1.TX34.t = 0
+nucTree_1.Node95.t = 3.36478826058868e-008
+nucTree_1.TX13.t = 0
+nucTree_1.Node94.t = 2.102992662709054e-008
+nucTree_1.TX16.t = 0
+nucTree_1.Node93.t = 1.461654474801431e-008
+nucTree_1.TX19.t = 0
+nucTree_1.Node92.t = 1.089431906307178e-008
+nucTree_1.TX23.t = 0
+nucTree_1.Node91.t = 9.134230644792955e-009
+Optimization finished in 10 loop passes.
+4007 likelihood evaluation calls and 41176 matrix exponentiations calls were made
+
+Model MGModel assigned to TX0
+Model MGModel assigned to TX1
+Model MGModel assigned to Node11
+Model MGModel assigned to TX51
+Model MGModel assigned to Node10
+Model MGModel assigned to TX6
+Model MGModel assigned to Node9
+Model MGModel assigned to TX39
+Model MGModel assigned to Node8
+Model MGModel assigned to TX10
+Model MGModel assigned to Node7
+Model MGModel assigned to TX11
+Model MGModel assigned to Node6
+Model MGModel assigned to TX14
+Model MGModel assigned to Node5
+Model MGModel assigned to TX17
+Model MGModel assigned to Node4
+Model MGModel assigned to TX21
+Model MGModel assigned to Node3
+Model MGModel assigned to TX24
+Model MGModel assigned to Node2
+Model MGModel assigned to TX2
+Model MGModel assigned to TX8
+Model MGModel assigned to TX20
+Model MGModel assigned to Node38
+Model MGModel assigned to TX25
+Model MGModel assigned to Node37
+Model MGModel assigned to TX26
+Model MGModel assigned to Node36
+Model MGModel assigned to TX33
+Model MGModel assigned to Node35
+Model MGModel assigned to TX36
+Model MGModel assigned to Node34
+Model MGModel assigned to TX37
+Model MGModel assigned to TX40
+Model MGModel assigned to TX41
+Model MGModel assigned to TX43
+Model MGModel assigned to TX44
+Model MGModel assigned to TX45
+Model MGModel assigned to TX46
+Model MGModel assigned to TX48
+Model MGModel assigned to TX49
+Model MGModel assigned to Node59
+Model MGModel assigned to Node57
+Model MGModel assigned to Node55
+Model MGModel assigned to Node53
+Model MGModel assigned to Node51
+Model MGModel assigned to Node49
+Model MGModel assigned to Node47
+Model MGModel assigned to Node45
+Model MGModel assigned to Node33
+Model MGModel assigned to TX52
+Model MGModel assigned to Node32
+Model MGModel assigned to Node30
+Model MGModel assigned to TX4
+Model MGModel assigned to Node29
+Model MGModel assigned to TX7
+Model MGModel assigned to Node28
+Model MGModel assigned to TX35
+Model MGModel assigned to Node27
+Model MGModel assigned to TX12
+Model MGModel assigned to Node26
+Model MGModel assigned to TX15
+Model MGModel assigned to Node25
+Model MGModel assigned to TX18
+Model MGModel assigned to Node24
+Model MGModel assigned to TX22
+Model MGModel assigned to Node23
+Model MGModel assigned to Node1
+Model MGModel assigned to TX3
+Model MGModel assigned to TX29
+Model MGModel assigned to TX53
+Model MGModel assigned to Node80
+Model MGModel assigned to Node78
+Model MGModel assigned to TX5
+Model MGModel assigned to Node77
+Model MGModel assigned to TX42
+Model MGModel assigned to Node76
+Model MGModel assigned to TX38
+Model MGModel assigned to Node75
+Model MGModel assigned to TX32
+Model MGModel assigned to Node74
+Model MGModel assigned to TX31
+Model MGModel assigned to Node73
+Model MGModel assigned to TX30
+Model MGModel assigned to Node72
+Model MGModel assigned to TX28
+Model MGModel assigned to Node71
+Model MGModel assigned to TX27
+Model MGModel assigned to Node70
+Model MGModel assigned to TX9
+Model MGModel assigned to TX47
+Model MGModel assigned to TX50
+Model MGModel assigned to Node98
+Model MGModel assigned to Node96
+Model MGModel assigned to TX34
+Model MGModel assigned to Node95
+Model MGModel assigned to TX13
+Model MGModel assigned to Node94
+Model MGModel assigned to TX16
+Model MGModel assigned to Node93
+Model MGModel assigned to TX19
+Model MGModel assigned to Node92
+Model MGModel assigned to TX23
+Model MGModel assigned to Node91
+The tips of the tree:codonTree_1 were matched with the species names from the data as follows {0,1,51,6,39,10,11,14,17,21,24,2,8,20,25,26,33,36,37,40,41,43,44,45,46,48,49,52,4,7,35,12,15,18,22,3,29,53,5,42,38,32,31,30,28,27,9,47,50,34,13,16,19,23}
+
+Pseudo-optimal path's cost 5880 vs 6246 for 1..k=> a 1.06224 x improvement
+Partition  reversible model flag computed as 1
+
+ReplicateConstraint generated the following contsraints:
+codonTree_1.TX0.synRate:=rConstr*nucTree_1.TX0.t__;
+codonTree_1.TX1.synRate:=rConstr*nucTree_1.TX1.t__;
+codonTree_1.Node11.synRate:=rConstr*nucTree_1.Node11.t__;
+codonTree_1.TX51.synRate:=rConstr*nucTree_1.TX51.t__;
+codonTree_1.Node10.synRate:=rConstr*nucTree_1.Node10.t__;
+codonTree_1.TX6.synRate:=rConstr*nucTree_1.TX6.t__;
+codonTree_1.Node9.synRate:=rConstr*nucTree_1.Node9.t__;
+codonTree_1.TX39.synRate:=rConstr*nucTree_1.TX39.t__;
+codonTree_1.Node8.synRate:=rConstr*nucTree_1.Node8.t__;
+codonTree_1.TX10.synRate:=rConstr*nucTree_1.TX10.t__;
+codonTree_1.Node7.synRate:=rConstr*nucTree_1.Node7.t__;
+codonTree_1.TX11.synRate:=rConstr*nucTree_1.TX11.t__;
+codonTree_1.Node6.synRate:=rConstr*nucTree_1.Node6.t__;
+codonTree_1.TX14.synRate:=rConstr*nucTree_1.TX14.t__;
+codonTree_1.Node5.synRate:=rConstr*nucTree_1.Node5.t__;
+codonTree_1.TX17.synRate:=rConstr*nucTree_1.TX17.t__;
+codonTree_1.Node4.synRate:=rConstr*nucTree_1.Node4.t__;
+codonTree_1.TX21.synRate:=rConstr*nucTree_1.TX21.t__;
+codonTree_1.Node3.synRate:=rConstr*nucTree_1.Node3.t__;
+codonTree_1.TX24.synRate:=rConstr*nucTree_1.TX24.t__;
+codonTree_1.Node2.synRate:=rConstr*nucTree_1.Node2.t__;
+codonTree_1.TX2.synRate:=rConstr*nucTree_1.TX2.t__;
+codonTree_1.TX8.synRate:=rConstr*nucTree_1.TX8.t__;
+codonTree_1.TX20.synRate:=rConstr*nucTree_1.TX20.t__;
+codonTree_1.Node38.synRate:=rConstr*nucTree_1.Node38.t__;
+codonTree_1.TX25.synRate:=rConstr*nucTree_1.TX25.t__;
+codonTree_1.Node37.synRate:=rConstr*nucTree_1.Node37.t__;
+codonTree_1.TX26.synRate:=rConstr*nucTree_1.TX26.t__;
+codonTree_1.Node36.synRate:=rConstr*nucTree_1.Node36.t__;
+codonTree_1.TX33.synRate:=rConstr*nucTree_1.TX33.t__;
+codonTree_1.Node35.synRate:=rConstr*nucTree_1.Node35.t__;
+codonTree_1.TX36.synRate:=rConstr*nucTree_1.TX36.t__;
+codonTree_1.Node34.synRate:=rConstr*nucTree_1.Node34.t__;
+codonTree_1.TX37.synRate:=rConstr*nucTree_1.TX37.t__;
+codonTree_1.TX40.synRate:=rConstr*nucTree_1.TX40.t__;
+codonTree_1.TX41.synRate:=rConstr*nucTree_1.TX41.t__;
+codonTree_1.TX43.synRate:=rConstr*nucTree_1.TX43.t__;
+codonTree_1.TX44.synRate:=rConstr*nucTree_1.TX44.t__;
+codonTree_1.TX45.synRate:=rConstr*nucTree_1.TX45.t__;
+codonTree_1.TX46.synRate:=rConstr*nucTree_1.TX46.t__;
+codonTree_1.TX48.synRate:=rConstr*nucTree_1.TX48.t__;
+codonTree_1.TX49.synRate:=rConstr*nucTree_1.TX49.t__;
+codonTree_1.Node59.synRate:=rConstr*nucTree_1.Node59.t__;
+codonTree_1.Node57.synRate:=rConstr*nucTree_1.Node57.t__;
+codonTree_1.Node55.synRate:=rConstr*nucTree_1.Node55.t__;
+codonTree_1.Node53.synRate:=rConstr*nucTree_1.Node53.t__;
+codonTree_1.Node51.synRate:=rConstr*nucTree_1.Node51.t__;
+codonTree_1.Node49.synRate:=rConstr*nucTree_1.Node49.t__;
+codonTree_1.Node47.synRate:=rConstr*nucTree_1.Node47.t__;
+codonTree_1.Node45.synRate:=rConstr*nucTree_1.Node45.t__;
+codonTree_1.Node33.synRate:=rConstr*nucTree_1.Node33.t__;
+codonTree_1.TX52.synRate:=rConstr*nucTree_1.TX52.t__;
+codonTree_1.Node32.synRate:=rConstr*nucTree_1.Node32.t__;
+codonTree_1.Node30.synRate:=rConstr*nucTree_1.Node30.t__;
+codonTree_1.TX4.synRate:=rConstr*nucTree_1.TX4.t__;
+codonTree_1.Node29.synRate:=rConstr*nucTree_1.Node29.t__;
+codonTree_1.TX7.synRate:=rConstr*nucTree_1.TX7.t__;
+codonTree_1.Node28.synRate:=rConstr*nucTree_1.Node28.t__;
+codonTree_1.TX35.synRate:=rConstr*nucTree_1.TX35.t__;
+codonTree_1.Node27.synRate:=rConstr*nucTree_1.Node27.t__;
+codonTree_1.TX12.synRate:=rConstr*nucTree_1.TX12.t__;
+codonTree_1.Node26.synRate:=rConstr*nucTree_1.Node26.t__;
+codonTree_1.TX15.synRate:=rConstr*nucTree_1.TX15.t__;
+codonTree_1.Node25.synRate:=rConstr*nucTree_1.Node25.t__;
+codonTree_1.TX18.synRate:=rConstr*nucTree_1.TX18.t__;
+codonTree_1.Node24.synRate:=rConstr*nucTree_1.Node24.t__;
+codonTree_1.TX22.synRate:=rConstr*nucTree_1.TX22.t__;
+codonTree_1.Node23.synRate:=rConstr*nucTree_1.Node23.t__;
+codonTree_1.Node1.synRate:=rConstr*nucTree_1.Node1.t__;
+codonTree_1.TX3.synRate:=rConstr*nucTree_1.TX3.t__;
+codonTree_1.TX29.synRate:=rConstr*nucTree_1.TX29.t__;
+codonTree_1.TX53.synRate:=rConstr*nucTree_1.TX53.t__;
+codonTree_1.Node80.synRate:=rConstr*nucTree_1.Node80.t__;
+codonTree_1.Node78.synRate:=rConstr*nucTree_1.Node78.t__;
+codonTree_1.TX5.synRate:=rConstr*nucTree_1.TX5.t__;
+codonTree_1.Node77.synRate:=rConstr*nucTree_1.Node77.t__;
+codonTree_1.TX42.synRate:=rConstr*nucTree_1.TX42.t__;
+codonTree_1.Node76.synRate:=rConstr*nucTree_1.Node76.t__;
+codonTree_1.TX38.synRate:=rConstr*nucTree_1.TX38.t__;
+codonTree_1.Node75.synRate:=rConstr*nucTree_1.Node75.t__;
+codonTree_1.TX32.synRate:=rConstr*nucTree_1.TX32.t__;
+codonTree_1.Node74.synRate:=rConstr*nucTree_1.Node74.t__;
+codonTree_1.TX31.synRate:=rConstr*nucTree_1.TX31.t__;
+codonTree_1.Node73.synRate:=rConstr*nucTree_1.Node73.t__;
+codonTree_1.TX30.synRate:=rConstr*nucTree_1.TX30.t__;
+codonTree_1.Node72.synRate:=rConstr*nucTree_1.Node72.t__;
+codonTree_1.TX28.synRate:=rConstr*nucTree_1.TX28.t__;
+codonTree_1.Node71.synRate:=rConstr*nucTree_1.Node71.t__;
+codonTree_1.TX27.synRate:=rConstr*nucTree_1.TX27.t__;
+codonTree_1.Node70.synRate:=rConstr*nucTree_1.Node70.t__;
+codonTree_1.TX9.synRate:=rConstr*nucTree_1.TX9.t__;
+codonTree_1.TX47.synRate:=rConstr*nucTree_1.TX47.t__;
+codonTree_1.TX50.synRate:=rConstr*nucTree_1.TX50.t__;
+codonTree_1.Node98.synRate:=rConstr*nucTree_1.Node98.t__;
+codonTree_1.Node96.synRate:=rConstr*nucTree_1.Node96.t__;
+codonTree_1.TX34.synRate:=rConstr*nucTree_1.TX34.t__;
+codonTree_1.Node95.synRate:=rConstr*nucTree_1.Node95.t__;
+codonTree_1.TX13.synRate:=rConstr*nucTree_1.TX13.t__;
+codonTree_1.Node94.synRate:=rConstr*nucTree_1.Node94.t__;
+codonTree_1.TX16.synRate:=rConstr*nucTree_1.TX16.t__;
+codonTree_1.Node93.synRate:=rConstr*nucTree_1.Node93.t__;
+codonTree_1.TX19.synRate:=rConstr*nucTree_1.TX19.t__;
+codonTree_1.Node92.synRate:=rConstr*nucTree_1.Node92.t__;
+codonTree_1.TX23.synRate:=rConstr*nucTree_1.TX23.t__;
+codonTree_1.Node91.synRate:=rConstr*nucTree_1.Node91.t__;
+
+Variable 'lf' was not initialized prior to being used
+Set GUI update interval to every 15-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dNdS = 0.25
+Optimization finished in 4 loop passes.
+51 likelihood evaluation calls and 4830 matrix exponentiations calls were made
+
+The tips of the tree:codonTree_1 were matched with the species names from the data as follows {0,1,51,6,39,10,11,14,17,21,24,2,8,20,25,26,33,36,37,40,41,43,44,45,46,48,49,52,4,7,35,12,15,18,22,3,29,53,5,42,38,32,31,30,28,27,9,47,50,34,13,16,19,23}
+Partition  reversible model flag computed as 1
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.

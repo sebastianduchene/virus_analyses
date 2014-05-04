@@ -1,0 +1,3 @@
+names.raw <- rownames(alin)
+
+names.split <- strsplit(names.raw, "@|/")
