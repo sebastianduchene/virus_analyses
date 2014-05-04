@@ -12,7 +12,8 @@ Load data
 
 Run plots with log10 transformation
 
-```{r}
+```{r setup, include = FALSE}
+opts_chunk$set(dev = 'pdf')
 tr_ts_scale <- cbind(factor(scales), tr_ts)
 
 par(mar = c(5, 5, 4, 4))
