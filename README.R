@@ -18,6 +18,7 @@ scales <- sapply(hiv_dat$file, function(x) strsplit(x, "[.]")[[1]][1])
 
 tr_ts <- (hiv_dat$Q2 + hiv_dat$Q5) / (hiv_dat$Q1 + hiv_dat$Q3 + hiv_dat$Q4 + hiv_dat$Q6) 
 hiv_dat <- cbind(hiv_dat, tr_ts)
+hiv_dat
 ```
 
 
