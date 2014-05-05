@@ -229,7 +229,6 @@ text(axTicks(1), -1.35, labels = c("Outbreak", "", "Intrahost", "", "Global"),
 ![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7.png) 
 
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
 
 
 
