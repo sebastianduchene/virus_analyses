@@ -1,0 +1,3 @@
+library(ape)
+
+fasta_dat <- grep('fasta', dir(), value = T)
