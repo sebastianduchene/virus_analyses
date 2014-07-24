@@ -28,13 +28,34 @@ get_codeml_template <- function(seq_data, tree_data, temp_name = 'temp_dat'){
  \n  method = 0
 "
   codeml_template <- gsub('@[A-Z]+@', temp_name, codeml_template)
-  return(codeml_template)
+  cat(codeml_template, file = paste0(temp_name, '.ctl'))
+  write.dna(seq_data, file = paste0(temp_name, '.fasta'), format = 'fasta', nbcol = -1, colsep = '')
+  write.tree(tree_data, file = paste0(temp_name, '.tree'))
 }
 
-# MAKE FUNCTION TO RUN CODEML
-# MAKE FUNCTION TO COLLECT RESUTLS FROM CODEML
+run_codeml <- function(seq_name, tree_name, ctl_name, codeml_path){
+	   system(paste(codeml_path, ctl_name))
+	   out_dat <- readLines(gsub('tree', 'out', tree_name))
+	   kappa <- as.numeric(gsub('[A-Z]|[a-z]| |/|=|[(]|[)]', '', grep('kappa', out_dat, value = T)))
+	   omega <- as.numeric(gsub('[A-Z]|[a-z]| |/|=|[(]|[)]', '', grep('omega', out_dat, value = T)))
+# GET THE ROOT AGE RELATIVE TO THE AGE OF THE YOUNGEST TIP AND INCLUDE IN THE RESULTS	   
+	   alpha <- grep('alpha', out_dat, value = T)
+	   alpha <- as.numeric(gsub('[A-Z]|[a-z]|[(].+[)]| |=', '',  alpha))
 
-
+	   SES <- grep('SEs for parameters', out_dat) + 1
+	   ses <- strsplit(out_dat[SES], ' ')[[1]]
+	   ses <- as.numeric(ses[2:length(ses)])
+	 
+	   dn <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dN', out_dat, value = T)))
+	   ds <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dS', out_dat, value = T)))
+	   print(kappa)
+	   print(omega)
+	   print(alpha)
+	   print(dn)
+	   print(ds)
+	   print(ses)
+	   return(list(kappa = kappa, omega = omega, alpha = alpha, dn = dn, ds = ds, SES = ses))
+}
 
 
 source('functions/prune_trees.R')
@@ -44,7 +65,8 @@ prune_tax <- get_taxa(readLines('prune_taxa.txt'))
 data1 <- read.dna('ASFV_N10.fasta', format = 'fasta')
 tree1 <- read.nexus('ASFV_N10.tree')
 
-
 prune_test <- prune_tree(tree1, data1, prune_tax$ASFV_N10.fasta)
 
-wow <- get_codeml_template(prune_test[[1]], prune_test[[2]])
+codeml_template <- get_codeml_template(prune_test[[1]], prune_test[[2]])
+
+run_test <- run_codeml('temp_dat.fasta', 'temp_dat.tree', 'temp_dat.ctl', './codeml')
