@@ -38,7 +38,7 @@ run_codeml <- function(seq_name, tree_name, ctl_name, codeml_path){
 	   out_dat <- readLines(gsub('tree', 'out', tree_name))
 	   kappa <- as.numeric(gsub('[A-Z]|[a-z]| |/|=|[(]|[)]', '', grep('kappa', out_dat, value = T)))
 	   omega <- as.numeric(gsub('[A-Z]|[a-z]| |/|=|[(]|[)]', '', grep('omega', out_dat, value = T)))
-# GET THE ROOT AGE RELATIVE TO THE AGE OF THE YOUNGEST TIP AND INCLUDE IN THE RESULTS	   
+# GET THE ROOT AGE RELATIVE TO THE AGE OF THE YOUNGEST TIP, AND THE BASE COMPOSITION, AND INCLUDE IN THE RESULTS	   
 	   alpha <- grep('alpha', out_dat, value = T)
 	   alpha <- as.numeric(gsub('[A-Z]|[a-z]|[(].+[)]| |=', '',  alpha))
 
