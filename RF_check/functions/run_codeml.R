@@ -1,3 +1,4 @@
+
 get_codeml_template <- function(seq_data, tree_data, temp_name = 'temp_dat'){
   codeml_template <- "seqfile = @INPUTSEQFILE@.fasta\n treefile = @INPUTTREEFILE@.tree\n outfile = @OUTPUTFILE@.out \n noisy = 9
  \n verbose = 1
@@ -38,7 +39,7 @@ run_codeml <- function(seq_name, tree_name, ctl_name, codeml_path){
 	   out_dat <- readLines(gsub('tree', 'out', tree_name))
 	   kappa <- as.numeric(gsub('[A-Z]|[a-z]| |/|=|[(]|[)]', '', grep('kappa', out_dat, value = T)))
 	   omega <- as.numeric(gsub('[A-Z]|[a-z]| |/|=|[(]|[)]', '', grep('omega', out_dat, value = T)))
-# GET THE ROOT AGE RELATIVE TO THE AGE OF THE YOUNGEST TIP AND INCLUDE IN THE RESULTS	   
+# GET THE ROOT AGE RELATIVE TO THE AGE OF THE YOUNGEST TIP, AND THE BASE COMPOSITION, AND INCLUDE IN THE RESULTS	   
 	   alpha <- grep('alpha', out_dat, value = T)
 	   alpha <- as.numeric(gsub('[A-Z]|[a-z]|[(].+[)]| |=', '',  alpha))
 
@@ -48,25 +49,31 @@ run_codeml <- function(seq_name, tree_name, ctl_name, codeml_path){
 	 
 	   dn <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dN', out_dat, value = T)))
 	   ds <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dS', out_dat, value = T)))
-	   print(kappa)
-	   print(omega)
-	   print(alpha)
-	   print(dn)
-	   print(ds)
-	   print(ses)
-	   return(list(kappa = kappa, omega = omega, alpha = alpha, dn = dn, ds = ds, SES = ses))
+	   
+	   root_age <- max(allnode.times(tryCatch(read.tree(tree_name), error = function(x) read.nexus(tree_name))))
+	   base_comp <- base.freq(read.dna(seq_name, format = 'fasta'))
+#	   print(kappa)
+#	   print(omega)
+#	   print(alpha)
+#	   print(dn)
+#	   print(ds)
+#	   print(ses)
+	   return(list(kappa = kappa, omega = omega, alpha = alpha, dn = dn, ds = ds, SES = ses, root_age = root_age, base_comp = base_comp))
 }
 
 
-source('functions/prune_trees.R')
 
-prune_tax <- get_taxa(readLines('prune_taxa.txt'))
 
-data1 <- read.dna('ASFV_N10.fasta', format = 'fasta')
-tree1 <- read.nexus('ASFV_N10.tree')
 
-prune_test <- prune_tree(tree1, data1, prune_tax$ASFV_N10.fasta)
+#source('functions/prune_trees.R')
 
-codeml_template <- get_codeml_template(prune_test[[1]], prune_test[[2]])
+#prune_tax <- get_taxa(readLines('prune_taxa.txt'))
 
-run_test <- run_codeml('temp_dat.fasta', 'temp_dat.tree', 'temp_dat.ctl', './codeml')
+#data1 <- read.dna('ASFV_N10.fasta', format = 'fasta')
+#tree1 <- read.nexus('ASFV_N10.tree')
+
+#prune_test <- prune_tree(tree1, data1, prune_tax$ASFV_N10.fasta)
+
+#codeml_template <- get_codeml_template(prune_test[[1]], prune_test[[2]])
+
+#run_test <- run_codeml('temp_dat.fasta', 'temp_dat.tree', 'temp_dat.ctl', './codeml')
