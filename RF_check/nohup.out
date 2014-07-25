@@ -1,0 +1,187 @@
+
+ 15         verbose | verbose                1.00
+  7         runmode | runmode                0.00
+  4         seqtype | seqtype                1.00
+ 13       CodonFreq | CodonFreq              0.00
+ 14         estFreq | estFreq                0.00
+ 34           ndata | ndata                  1.00
+  9           clock | clock                  0.00
+ 18          aaDist | aaDist                 0.00
+ 16           model | model                  0.00
+ 20         NSsites | NSsites                0.00
+ 22           icode | icode                  0.00
+ 23           Mgene | Mgene                  0.00
+ 24       fix_kappa | fix_kappa              0.00
+ 25           kappa | kappa                  2.00
+ 26       fix_omega | fix_omega              0.00
+ 27           omega | omega                  0.40
+ 28       fix_alpha | fix_alpha              0.00
+ 29           alpha | alpha                  0.10
+ 30          Malpha | Malpha                 0.00
+ 31           ncatG | ncatG                  5.00
+ 11           getSE | getSE                  1.00
+ 12    RateAncestor | RateAncestor           0.00
+ 36      Small_Diff | Small_Diff             0.00
+  6       cleandata | cleandata              0.00
+ 37     fix_blength | fix_blength            2.00
+  8          method | method                 0.00
+Gamma codon model: are you sure this is the model you want to use? 
+CODONML in paml version 4.8, March 2014
+
+----------------------------------------------
+Phe F TTT | Ser S TCT | Tyr Y TAT | Cys C TGT
+      TTC |       TCC |       TAC |       TGC
+Leu L TTA |       TCA | *** * TAA | *** * TGA
+      TTG |       TCG |       TAG | Trp W TGG
+----------------------------------------------
+Leu L CTT | Pro P CCT | His H CAT | Arg R CGT
+      CTC |       CCC |       CAC |       CGC
+      CTA |       CCA | Gln Q CAA |       CGA
+      CTG |       CCG |       CAG |       CGG
+----------------------------------------------
+Ile I ATT | Thr T ACT | Asn N AAT | Ser S AGT
+      ATC |       ACC |       AAC |       AGC
+      ATA |       ACA | Lys K AAA | Arg R AGA
+Met M ATG |       ACG |       AAG |       AGG
+----------------------------------------------
+Val V GTT | Ala A GCT | Asp D GAT | Gly G GGT
+      GTC |       GCC |       GAC |       GGC
+      GTA |       GCA | Glu E GAA |       GGA
+      GTG |       GCG |       GAG |       GGG
+----------------------------------------------
+Nice code, uuh?
+
+
+Ambiguity character definition table:
+
+T (1): T 
+C (1): C 
+A (1): A 
+G (1): G 
+U (1): T 
+Y (2): T C 
+R (2): A G 
+M (2): C A 
+K (2): T G 
+S (2): C G 
+W (2): T A 
+H (3): T C A 
+B (3): T C G 
+V (3): C A G 
+D (3): T A G 
+- (4): T C A G 
+N (4): T C A G 
+? (4): T C A G 
+
+processing fasta file
+reading seq# 1 FJ174385_1961                                          573 sites
+reading seq# 2 GQ477151_2007                                          573 sites
+reading seq# 3 HM745346_2005                                          573 sites
+reading seq# 4 JX857503_2009                                          573 sites
+reading seq# 5 KC990875_2012                                          573 sites
+reading seq# 6 JX857507_2012                                          573 sites
+reading seq# 7 HM745354_2005                                          573 sites
+reading seq# 8 KC610537_2002                                          573 sites
+reading seq# 9 HM745342_2005                                          573 sites
+reading seq#10 KC112569_2010                                          573 sites
+reading seq#11 HM745336_2005                                          573 sites
+reading seq#12 FJ174415_1997                                          573 sites
+reading seq#13 HM745347_2005                                          573 sites
+reading seq#14 JX857501_2008                                          573 sites
+reading seq#15 FJ174435_2003                                          573 sites
+reading seq#16 FJ174400_1994                                          573 sites
+reading seq#17 JN582355_2008                                          573 sites
+reading seq#18 FJ174417_1998                    
+ 15         verbose | verbose                1.00
+  7         runmode | runmode                2.00
+  4         seqtype | seqtype                1.00
+ 13       CodonFreq | CodonFreq              0.00
+ 14         estFreq | estFreq                0.00
+ 34           ndata | ndata                  1.00
+  9           clock | clock                  0.00
+ 18          aaDist | aaDist                 0.00
+ 16           model | model                  0.00
+ 20         NSsites | NSsites                0.00
+ 22           icode | icode                  0.00
+ 23           Mgene | Mgene                  0.00
+ 24       fix_kappa | fix_kappa              0.00
+ 25           kappa | kappa                  2.00
+ 26       fix_omega | fix_omega              0.00
+ 27           omega | omega                  0.40
+ 28       fix_alpha | fix_alpha              0.00
+ 29           alpha | alpha                  0.10
+ 30          Malpha | Malpha                 0.00
+ 31           ncatG | ncatG                  5.00
+ 11           getSE | getSE                  1.00
+ 12    RateAncestor | RateAncestor           0.00
+ 36      Small_Diff | Small_Diff             0.00
+  6       cleandata | cleandata              1.00
+ 37     fix_blength | fix_blength            2.00
+  8          method | method                 0.00
+Gamma codon model: are you sure this is the model you want to use? 
+CODONML in paml version 4.8, March 2014
+
+----------------------------------------------
+Phe F TTT | Ser S TCT | Tyr Y TAT | Cys C TGT
+      TTC |       TCC |       TAC |       TGC
+Leu L TTA |       TCA | *** * TAA | *** * TGA
+      TTG |       TCG |       TAG | Trp W TGG
+----------------------------------------------
+Leu L CTT | Pro P CCT | His H CAT | Arg R CGT
+      CTC |       CCC |       CAC |       CGC
+      CTA |       CCA | Gln Q CAA |       CGA
+      CTG |       CCG |       CAG |       CGG
+----------------------------------------------
+Ile I ATT | Thr T ACT | Asn N AAT | Ser S AGT
+      ATC |       ACC |       AAC |       AGC
+      ATA |       ACA | Lys K AAA | Arg R AGA
+Met M ATG |       ACG |       AAG |       AGG
+----------------------------------------------
+Val V GTT | Ala A GCT | Asp D GAT | Gly G GGT
+      GTC |       GCC |       GAC |       GGC
+      GTA |       GCA | Glu E GAA |       GGA
+      GTG |       GCG |       GAG |       GGG
+----------------------------------------------
+Nice code, uuh?
+
+
+Ambiguity character definition table:
+
+T (1): T 
+C (1): C 
+A (1): A 
+G (1): G 
+U (1): T 
+Y (2): T C 
+R (2): A G 
+M (2): C A 
+K (2): T G 
+S (2): C G 
+W (2): T A 
+H (3): T C A 
+B (3): T C G 
+V (3): C A G 
+D (3): T A G 
+- (4): T C A G 
+N (4): T C A G 
+? (4): T C A G 
+
+processing fasta file
+reading seq# 1 FJ174385_1961                                          573 sites
+reading seq# 2 GQ477151_2007                                          573 sites
+reading seq# 3 HM745346_2005                                          573 sites
+reading seq# 4 JX857503_2009                                          573 sites
+reading seq# 5 KC990875_2012                                          573 sites
+reading seq# 6 JX857507_2012                                          573 sites
+reading seq# 7 HM745354_2005                                          573 sites
+reading seq# 8 KC610537_2002                                          573 sites
+reading seq# 9 HM745342_2005                                          573 sites
+reading seq#10 KC112569_2010                                          573 sites
+reading seq#11 HM745336_2005                                          573 sites
+reading seq#12 FJ174415_1997                                          573 sites
+reading seq#13 HM745347_2005                                          573 sites
+reading seq#14 JX857501_2008                                          573 sites
+reading seq#15 FJ174435_2003                                          573 sites
+reading seq#16 FJ174400_1994                                          573 sites
+reading seq#17 JN582355_2008                                          573 sites
+reading seq#18 FJ174417_1998                    
