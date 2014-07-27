@@ -46,6 +46,7 @@ run_codeml <- function(seq_name, tree_name, ctl_name, codeml_path){
 	   SES <- grep('SEs for parameters', out_dat) + 1
 	   ses <- strsplit(out_dat[SES], ' ')[[1]]
 	   ses <- as.numeric(ses[2:length(ses)])
+	   names(ses) <- c('kappa','omega', 'alpha')
 	 
 	   dn <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dN', out_dat, value = T)))
 	   ds <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dS', out_dat, value = T)))
