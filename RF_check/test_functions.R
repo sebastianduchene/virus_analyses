@@ -11,6 +11,22 @@ if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this di
 # iterate per data set
 
 
+
+
+for(i in 1:length(prune_tax)){
+  n_temp <- names(prune_tax)[i]
+  seq_dat <- read.dna(n_temp, format = 'fasta')
+  tre_dat <- read.nexus(gsub('fasta', 'tree', n_temp))
+  template_temp  <- get_codeml_template(seq_dat, tre_dat)
+  run_temp <- run_codeml('temp_dat.fasta', 'temp_dat.tree', 'temp_dat.ctl', './codeml')
+  cat(c(paste0('COMPLETE', n_temp), unlist(run_temp), '\n'), file = 'restuls_test.txt', append = T) 
+  
+}
+
+
+
+
+
 for(i in 1:length(prune_tax)){
 
   n_temp <- names(prune_tax)[i]
