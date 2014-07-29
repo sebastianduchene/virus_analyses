@@ -11,7 +11,7 @@ if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this di
 # iterate per data set
 
 
-for(i in 4:length(prune_tax)){
+for(i in 1:length(prune_tax)){
 
   n_temp <- names(prune_tax)[i]
   seq_dat <- read.dna(n_temp, format = 'fasta')
