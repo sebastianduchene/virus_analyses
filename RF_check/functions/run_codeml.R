@@ -4,7 +4,7 @@ get_codeml_template <- function(seq_data, tree_data, temp_name = 'temp_dat'){
  \n verbose = 1
  \n runmode = 0
  \n seqtype = 1
- \n   CodonFreq = 0
+ \n   CodonFreq = 3
  \n estFreq = 0
  \n   ndata = 1
  \n   clock = 0
@@ -20,7 +20,7 @@ get_codeml_template <- function(seq_data, tree_data, temp_name = 'temp_dat'){
 \n fix_alpha = 0
  \n   alpha = 0.1
  \n  Malpha = 0
- \n   ncatG = 5
+ \n   ncatG = 4
  \n   getSE = 1
 \n RateAncestor = 0
 \n Small_Diff = 5e-7
@@ -50,16 +50,29 @@ run_codeml <- function(seq_name, tree_name, ctl_name, codeml_path){
 	 
 	   dn <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dN', out_dat, value = T)))
 	   ds <- as.numeric(gsub('[A-Z]|[a-z]|:| ', '', grep('length for dS', out_dat, value = T)))
-	   
-	   root_age <- max(allnode.times(tryCatch(read.tree(tree_name), error = function(x) read.nexus(tree_name))))
-	   base_comp <- base.freq(read.dna(seq_name, format = 'fasta'))
+
+	   tre_temp <- tryCatch(read.tree(tree_name), error = function(x) read.nexus(tree_name))
+	   dat_temp <- read.dna(seq_name, format = 'fasta')
+	   p_temp <- pml(tree = tre_temp, data = phyDat(dat_temp), k = 4)
+#	   return(p_temp)
+##########
+# Make the function below to work around the optimisation using the empirical BF
+#	   opt_temp <- tryCatch(optim.pml(p_temp, optQ = T, optBf = T, optGamma = T), error = function(x) optim.pml(p_temp, optQ = T, optBf = T, optGamma = F)
+#	   Ti_temp <- opt_temp$Q[c(2, 5)]
+#	   Tv_temp <- opt_temp$Q[c(1, 3, 4, 6)]
+########
+	Ti_temp = NA
+	Tv_temp = NA
+
+	   root_age <- max(allnode.times(tre_temp))
+	   base_comp <- base.freq(dat_temp)
 #	   print(kappa)
 #	   print(omega)
 #	   print(alpha)
 #	   print(dn)
 #	   print(ds)
 #	   print(ses)
-	   return(list(kappa = kappa, omega = omega, alpha = alpha, dn = dn, ds = ds, SES = ses, root_age = root_age, base_comp = base_comp))
+	   return(list(kappa = kappa, ti = Ti_temp, tv = Tv_temp, omega = omega, alpha = alpha, dn = dn, ds = ds, SES = ses, root_age = root_age, base_comp = base_comp))
 }
 
 

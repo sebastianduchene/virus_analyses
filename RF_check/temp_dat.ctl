@@ -9,7 +9,7 @@ seqfile = temp_dat.fasta
  
  seqtype = 1
  
-   CodonFreq = 0
+   CodonFreq = 3
  
  estFreq = 0
  
@@ -41,7 +41,7 @@ seqfile = temp_dat.fasta
  
   Malpha = 0
  
-   ncatG = 5
+   ncatG = 4
  
    getSE = 1
 
