@@ -13,9 +13,8 @@ if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this di
 
 
 
-for(i in 1:length(prune_tax)){
-#for(i in 9:10){
-  next
+#for(i in 1:length(prune_tax)){
+for(i in 8){
   n_temp <- names(prune_tax)[i]
   seq_dat <- read.dna(n_temp, format = 'fasta')
   tre_dat <- read.nexus(gsub('fasta', 'tree', n_temp))
@@ -29,8 +28,8 @@ for(i in 1:length(prune_tax)){
 
 
 
-for(i in 1:length(prune_tax)){
-#for(i in 9:10){
+#for(i in 1:length(prune_tax)){
+for(i in 8){
   n_temp <- names(prune_tax)[i]
   seq_dat <- read.dna(n_temp, format = 'fasta')
   tre_dat <- read.nexus(gsub('fasta', 'tree', n_temp))
