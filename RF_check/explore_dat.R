@@ -39,7 +39,7 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 }
 
 # GC cont
-plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col = 'black', ylim = c(0, 1), xlim = c(1, 4))
+plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col = 'black', ylim = c(0, 1.2), xlim = c(1, 4))
 points(log10(combine_dat$V12.y), combine_dat$cg.y, pch = 1:10, col = 'red')
 
 for(i in 1:nrow(combine_dat)){

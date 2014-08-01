@@ -11,8 +11,21 @@ if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this di
 # iterate per data set
 
 #Note that we also need the rate. This can be done by using read.annotated.nexus and trann2trdat to save the rates in the branches. Then prune the 'branch rate tree' and get mean rate.
+for(i in 1:length(prune_tax)){
+      n_temp <- names(prune_tax)[i]
+      seq_dat <- read.dna(n_temp, format = 'fasta')
+      tree_dat <- read.annotated.nexus(gsub('fasta', 'tree', n_temp))
+      tdm_dat <- trann2trdat(tree_dat)
+      tree_rates <- tree_dat
+      tree_rates$edge.length <- tdm_dat[, 5]
+      comp_rate <- mean(tree_rates$edge.length)
+      prune_temp <- prune_tree(tree_rates, seq_dat, prune_tax[[i]], random = F)[[2]]
+      prune_rate <- mean(prune_temp$edge.length)
+      cat(paste(n_temp, comp_rate, prune_rate, '\n'), file = 'mean_rates.txt', append = T)
+}
 
 
+stop('Tree rates saved')
 
 #for(i in 1:length(prune_tax)){
 for(i in 7:9){
