@@ -4,13 +4,43 @@ source('run_codeml.R')
 setwd('..')
 
 
+
+
+stop('THIS HAS A LOT OF ANALYSES. REMOVE ERROR MESSAGE IN SCRIPT TO RUN')
+
 prune_tax <- get_taxa(readLines('prune_taxa.txt'))
 
 if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this dir')
 
 # iterate per data set
 
-#Note that we also need the rate. This can be done by using read.annotated.nexus and trann2trdat to save the rates in the branches. Then prune the 'branch rate tree' and get mean rate.
+mod_gen_path <- 'java -jar /Users/sebastianducheneAIr/Downloads/modelgenerator_v_851/modelgenerator.jar'
+
+
+run_mod_gen <- function(input_path, jar_path = ''){
+	    system(paste(jar_path, input_path, '4'))
+	    out_data <- readLines('modelgenerator0.out')
+	    system('rm modelgenerator0.out')
+	    model_sel <- gsub('Model Selected: ', '', out_data[grep('Bayesian Information', out_data) + 2])
+	    return(model_sel)
+}
+
+for(i in 1:length(prune_tax)){
+  n_temp <- names(prune_tax)[i]
+  model_comp <- run_mod_gen(n_temp, mod_gen_path)
+  seq_dat <- read.dna(n_temp, format = 'fasta')
+  tre_dat <- read.nexus(gsub('fasta', 'tree', n_temp))
+  prune_temp  <- prune_tree(tre_dat, seq_dat, prune_tax[[i]], random = F)[[1]]
+  write.dna(prune_temp, file = 'mod_temp_data.fasta', format = 'fasta', nbcol = -1, colsep = '')
+  model_prune <- run_mod_gen('mod_temp_data.fasta', mod_gen_path)
+  cat(paste(n_temp, model_comp, model_prune, '\n'), file = 'models_test.txt', append = T) 
+}
+
+
+
+
+#Mean rate for tree subsections
+
 for(i in 1:length(prune_tax)){
       n_temp <- names(prune_tax)[i]
       seq_dat <- read.dna(n_temp, format = 'fasta')
@@ -25,7 +55,6 @@ for(i in 1:length(prune_tax)){
 }
 
 
-stop('Tree rates saved')
 
 #for(i in 1:length(prune_tax)){
 for(i in 7:9){

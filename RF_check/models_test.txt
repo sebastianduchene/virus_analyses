@@ -1,0 +1,10 @@
+Capox_N29.fasta K81uf+G HKY 
+ASFV_N10.fasta K80+G K80 
+ebov_n2.fasta TVM+I+G HKY+I 
+HIV_S4env.fasta TVM+I+G TVM+I+G 
+dv4_36.fasta TrN+G TrN+G 
+HBV_N42.fasta TVMef+G HKY 
+BYDV24.fasta K80+G K80 
+CYDV126.fasta K81+G K81+G 
+sivscHIV2_132.fasta HKY+G HKY+G 
+rabv_128.fasta K81+G K81+G 
