@@ -10,6 +10,8 @@ if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this di
 
 # iterate per data set
 
+#Note that we also need the rate. This can be done by using read.annotated.nexus and trann2trdat to save the rates in the branches. Then prune the 'branch rate tree' and get mean rate.
+
 
 
 #for(i in 1:length(prune_tax)){

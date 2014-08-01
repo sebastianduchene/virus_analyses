@@ -10,11 +10,12 @@ if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this di
 
 # iterate per data set
 
+#Note that we also need the rate. This can be done with read.annotated.nexus and trann2trdat
 
 
 
 #for(i in 1:length(prune_tax)){
-for(i in 8){
+for(i in 7:9){
   n_temp <- names(prune_tax)[i]
   seq_dat <- read.dna(n_temp, format = 'fasta')
   tre_dat <- read.nexus(gsub('fasta', 'tree', n_temp))
@@ -29,7 +30,7 @@ for(i in 8){
 
 
 #for(i in 1:length(prune_tax)){
-for(i in 8){
+for(i in 7:9){
   n_temp <- names(prune_tax)[i]
   seq_dat <- read.dna(n_temp, format = 'fasta')
   tre_dat <- read.nexus(gsub('fasta', 'tree', n_temp))
