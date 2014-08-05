@@ -20,7 +20,7 @@ par(mfrow = c(2, 2))
 par(mar = c(4, 4.5, 0.5, 0.5))
 plot(log10(combine_dat$V12.x), combine_dat$V2.x, pch = 1:10, col = 'black', ylim = c(1, 20), xlim = c(1, 4), lwd = 1.5  , ylab = expression(italic('ti/tv')) , xlab = '', xaxt = 'n', cex.lab = 1.2)#, xlab = expression(paste(log[10], ' time (years)')))
 points(log10(combine_dat$V12.y), combine_dat$V2.y, pch = 1:10, col = 'red', lwd = 1.5)
-legend(x = 3.2, y = 20, legend = c('ASFV', 'BYDV', 'CaPV', 'CYDV', 'DEN-4', 'EBOV', 'HBV', 'HIV-1', 'RaV', 'HIV-2' ), bty = 'n', cex = 0.7, pch = 1:10)
+legend(x = 3.2, y = 20, legend = c('ASFV', 'BYDV', 'CaPV', 'CYDV', 'DEN-4', 'EBOV', 'HBV', 'HIV-1', 'RaV', 'HIV-2+SIV' ), bty = 'n', cex = 0.7, pch = 1:10)
 text(x = 1.1, y = 19.8, labels = expression(bold('A')), cex = 1.3)
 
 #legend(x = 2.8, y = 20, legend = gsub('[.]fasta', '', combine_dat$V1), bty = 'n', cex = 0.7, pch = 1:10)
