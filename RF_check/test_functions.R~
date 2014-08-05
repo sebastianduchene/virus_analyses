@@ -4,6 +4,10 @@ source('run_codeml.R')
 setwd('..')
 
 
+
+
+stop('THIS HAS A LOT OF ANALYSES. REMOVE ERROR MESSAGE IN SCRIPT TO RUN')
+
 prune_tax <- get_taxa(readLines('prune_taxa.txt'))
 
 if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this dir')
@@ -33,7 +37,6 @@ for(i in 1:length(prune_tax)){
 }
 
 
-stop('testing model gen')
 
 
 #Mean rate for tree subsections

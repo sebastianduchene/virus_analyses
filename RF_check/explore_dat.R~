@@ -4,6 +4,7 @@ raw_dat <- read.table('restuls_test.txt', as.is = T)
 
 comp_dat <- raw_dat[grep('COMPLETE', raw_dat$V1), c(1, 2, 12, 5, 6, 13, 14, 15, 16)]
 comp_dat$V1 <- gsub('COMPLETE', '', comp_dat$V1)
+names_data <- gsub('[.]fasta', '', raw_dat$V1[-grep('COMPLETE|boot', raw_dat$V1)])
 
 pruned_dat <- raw_dat[-(grep('boot|COMPLETE', raw_dat$V1)), c(1, 2, 12, 5, 6, 13, 14, 15, 16)]
 
@@ -14,39 +15,42 @@ gccont <- cbind(cg.x = ((combine_dat$V14.x + combine_dat$V15.x) / (combine_dat$V
 combine_dat <- cbind(combine_dat, gccont)
 
 # TITV
+pdf('Fig1.pdf', useDingbats = F)
 par(mfrow = c(2, 2))
-plot(log10(combine_dat$V12.x), combine_dat$V2.x, pch = 1:10, col = 'black', ylim = c(1, 25), xlim = c(1, 4))
-points(log10(combine_dat$V12.y), combine_dat$V2.y, pch = 1:10, col = 'red')
+par(mar = c(4, 4, 1, 1))
+plot(log10(combine_dat$V12.x), combine_dat$V2.x, pch = 1:10, col = 'black', ylim = c(1, 20), xlim = c(1, 4), lwd = 1.5, ylab = 'Ti/Tv')
+points(log10(combine_dat$V12.y), combine_dat$V2.y, pch = 1:10, col = 'red', lwd = 1.5)
+legend(x = 3.2, y = 20, legend = gsub('[.]fasta', '', combine_dat$V1), bty = 'n', cex = 0.7, pch = 1:10)
 
 for(i in 1:nrow(combine_dat)){
-lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V2.x[i], combine_dat$V2.y[i]))
+lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V2.x[i], combine_dat$V2.y[i]), lwd = 1.5)
 }
 
 # dnds
-plot(log10(combine_dat$V12.x), combine_dat$V5.x, pch = 1:10, col = 'black', ylim = c(0, 5), xlim = c(1, 4))
-points(log10(combine_dat$V12.y), combine_dat$V5.y, pch = 1:10, col = 'red')
+plot(log10(combine_dat$V12.x), combine_dat$V5.x, pch = 1:10, col = 'black', ylim = c(0, 2.5), xlim = c(1, 4), lwd = 1.5, ylab = 'dN/dS')
+points(log10(combine_dat$V12.y), combine_dat$V5.y, pch = 1:10, col = 'red', lwd = 1.5)
 
 for(i in 1:nrow(combine_dat)){
-lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V5.x[i], combine_dat$V5.y[i]))
+lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V5.x[i], combine_dat$V5.y[i]), lwd = 1.5)
 }
 
 # alpha
-plot(log10(combine_dat$V12.x), combine_dat$V6.x, pch = 1:10, col = 'black', ylim = c(0, 0.4), xlim = c(1, 4))
-points(log10(combine_dat$V12.y), combine_dat$V6.y, pch = 1:10, col = 'red')
+plot(log10(combine_dat$V12.x), combine_dat$V6.x, pch = 1:10, col = 'black', ylim = c(0, 0.32), xlim = c(1, 4), lwd = 1.5, ylab = 'alpha')
+points(log10(combine_dat$V12.y), combine_dat$V6.y, pch = 1:10, col = 'red', lwd = 1.5)
 
 for(i in 1:nrow(combine_dat)){
-lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V6.x[i], combine_dat$V6.y[i]))
+lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V6.x[i], combine_dat$V6.y[i]), lwd = 1.5)
 }
 
 # GC cont
-plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col = 'black', ylim = c(0, 1.2), xlim = c(1, 4))
-points(log10(combine_dat$V12.y), combine_dat$cg.y, pch = 1:10, col = 'red')
+plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col = 'black', ylim = c(0.6, 1.1), xlim = c(1, 4), lwd = 1.5, ylab = 'C-G content')
+points(log10(combine_dat$V12.y), combine_dat$cg.y, pch = 1:10, col = 'red', lwd = 1.5)
 
 for(i in 1:nrow(combine_dat)){
-lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$cg.x[i], combine_dat$cg.y[i]))
+lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$cg.x[i], combine_dat$cg.y[i]), lwd = 1.5)
 }
 
-
+dev.off()
 
 
 
