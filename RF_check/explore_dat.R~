@@ -21,6 +21,7 @@ par(mar = c(4, 4.5, 0.5, 0.5))
 plot(log10(combine_dat$V12.x), combine_dat$V2.x, pch = 1:10, col = 'black', ylim = c(1, 20), xlim = c(1, 4), lwd = 1.5  , ylab = expression(italic('ti/tv')) , xlab = '', xaxt = 'n', cex.lab = 1.2)#, xlab = expression(paste(log[10], ' time (years)')))
 points(log10(combine_dat$V12.y), combine_dat$V2.y, pch = 1:10, col = 'red', lwd = 1.5)
 legend(x = 3.2, y = 20, legend = c('ASFV', 'BYDV', 'CaPV', 'CYDV', 'DEN-4', 'EBOV', 'HBV', 'HIV-1', 'RaV', 'HIV-2' ), bty = 'n', cex = 0.7, pch = 1:10)
+text(x = 1.1, y = 19.8, labels = expression(bold('A')), cex = 1.3)
 
 #legend(x = 2.8, y = 20, legend = gsub('[.]fasta', '', combine_dat$V1), bty = 'n', cex = 0.7, pch = 1:10)
 
@@ -31,6 +32,7 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 # dnds
 plot(log10(combine_dat$V12.x), combine_dat$V5.x, pch = 1:10, col = 'black', ylim = c(0, 2), xlim = c(1, 4), lwd = 1.5, ylab = expression(italic(d[N]/d[S])) , xlab = '', xaxt = 'n', cex.lab = 1.2)#, xlab = expression(paste(log[10], ' time (years)')))
 points(log10(combine_dat$V12.y), combine_dat$V5.y, pch = 1:10, col = 'red', lwd = 1.5)
+text(x = 1.1, y = 1.98, labels = expression(bold('B')), cex = 1.3)
 
 for(i in 1:nrow(combine_dat)){
 lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V5.x[i], combine_dat$V5.y[i]), lwd = 1.5)
@@ -39,6 +41,7 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 # alpha
 plot(log10(combine_dat$V12.x), combine_dat$V6.x, pch = 1:10, col = 'black', ylim = c(0, 0.2), xlim = c(1, 4), lwd = 1.5, ylab = expression(alpha), xlab = expression(paste(log[10], ' time (years)')) , cex.lab = 1.2)
 points(log10(combine_dat$V12.y), combine_dat$V6.y, pch = 1:10, col = 'red', lwd = 1.5)
+text(x = 1.1, y = 0.198, labels = expression(bold('C')), cex = 1.3)
 
 for(i in 1:nrow(combine_dat)){
 lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V6.x[i], combine_dat$V6.y[i]), lwd = 1.5)
@@ -47,6 +50,8 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 # GC cont
 plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col = 'black', ylim = c(0.6, 1.1), xlim = c(1, 4), lwd = 1.5, ylab = 'C-G content', xlab = expression(paste(log[10], ' time (years)')), , cex.lab = 1.2)
 points(log10(combine_dat$V12.y), combine_dat$cg.y, pch = 1:10, col = 'red', lwd = 1.5)
+text(x = 1.1, y = 1.09, labels = expression(bold('D')), cex = 1.3)
+
 
 for(i in 1:nrow(combine_dat)){
 lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$cg.x[i], combine_dat$cg.y[i]), lwd = 1.5)
