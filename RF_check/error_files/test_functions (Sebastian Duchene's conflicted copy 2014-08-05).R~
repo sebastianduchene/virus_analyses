@@ -1,4 +1,0 @@
-setwd('functions')
-for(i in dir()) source(i)
-setwd('..')
-
