@@ -48,7 +48,7 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 }
 
 # GC cont
-plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col = 'black', ylim = c(0.6, 1.1), xlim = c(1, 4), lwd = 1.5, ylab = 'C-G content', xlab = expression(paste(log[10], ' time (years)')), , cex.lab = 1.2, cex = 1.5)
+plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col = 'black', ylim = c(0.6, 1.1), xlim = c(1, 4), lwd = 1.5, ylab = 'CG-content', xlab = expression(paste(log[10], ' time (years)')), , cex.lab = 1.2, cex = 1.5)
 points(log10(combine_dat$V12.y), combine_dat$cg.y, pch = 1:10, col = 'red', lwd = 1.5, cex = 1.5)
 text(x = 1.1, y = 1.09, labels = expression(bold('D')), cex = 1.3)
 
