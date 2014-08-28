@@ -41,4 +41,4 @@ dev.off()
 
 print(summary(l_dna))
 
-write.table(dat, file = 'data_titv_reg.txt', row.names = F)
+write.table(dat, file = 'data_titv_reg.txt', row.names = F, sep = '\t')
