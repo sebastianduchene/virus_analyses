@@ -39,12 +39,13 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 }
 
 # alpha
-plot(log10(combine_dat$V12.x), combine_dat$V6.x, pch = 1:10, col = 'black', ylim = c(0, 0.2), xlim = c(1, 4), lwd = 1.5, ylab = expression(alpha), xlab = expression(paste(log[10], ' time (years)')) , cex.lab = 1.2, cex = 1.5)
+plot(log10(combine_dat$V12.x), combine_dat$V6.x, pch = 1:10, col = 'black', ylim = c(0, 0.2), xlim = c(1, 4), lwd = 1.5, ylab = expression(italic(alpha)), xlab = expression(paste(log[10], ' time (years)')) , cex.lab = 1.2, cex = 1.5)
 points(log10(combine_dat$V12.y), combine_dat$V6.y, pch = 1:10, col = 'red', lwd = 1.5, cex = 1.5)
 text(x = 1.1, y = 0.198, labels = expression(bold('C')), cex = 1.3)
 
+l_sig <- c(1, 2)[grepl('Capox', combine_dat$V1) + 1]
 for(i in 1:nrow(combine_dat)){
-lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V6.x[i], combine_dat$V6.y[i]), lwd = 1.5)
+lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(combine_dat$V6.x[i], combine_dat$V6.y[i]), lwd = 1.5, lty = l_sig[i])
 }
 
 # GC cont
@@ -83,3 +84,13 @@ for(i in 1:nrow(combine_dat)){
 lines(x = c((combine_dat$V12.x[i]), (combine_dat$V12.y[i])), y = c(combine_dat$V5.x[i], combine_dat$V5.y[i]))
 }
 }
+
+# Write the complete data
+sup_t_2 <- combine_dat[, c(1, 2, 3, 4, 5, 18, 10, 11, 12, 13, 19)]
+colnames(sup_t_2) <- c('data_set_name', 'titv_comp', 'root_age_comp', 'dnds_comp', 'alpha_comp', 'cg_comp', 'titv_subsamp', 'root_age_subsamp', 'dnds_subsamp', 'alpha_subsamp', 'cg_subsamp')
+
+sup_t_2$data_set_name <- gsub('[.]fasta', '', sup_t_2$data_set_name)
+
+
+
+write.table(sup_t_2, file = 'supp_table_1.txt', row.names = F, sep = '\t')

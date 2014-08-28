@@ -24,7 +24,7 @@ dat$trTs[dat$mean_root < 100 ] <-  dat$trTs[dat$mean_root < 100 ] * 1.5
 rna <- grepl('RNA', dat$Nuc.acid)
 pass_drt <- dat$randTest > 1
 
-plot(log10(dat$mean_root), dat$trTs, pch =c(20, 1)[pass_drt + 1] , col = rna + 1, ylab = 'ti/tv', xlab = expression(paste(log[10], ' time (years)')))
+plot(log10(dat$mean_root), dat$trTs, pch =c(1, 20)[pass_drt + 1] , col = rna + 1, ylab = 'ti/tv', xlab = expression(paste(log[10], ' time (years)')))
 
 legend(x = 3, y = 15, bty = 'n', legend = c(expression(bold('RNA')), expression(bold('DNA'))), text.col = c('red', 'black'))
 
