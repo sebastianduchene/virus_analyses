@@ -3,7 +3,7 @@ source('prune_trees.R')
 source('run_codeml.R')
 setwd('..')
 
-prune_tax <- get_taxa(readLines('prune_taxa.txt'))
+prune_tax <- get_taxa(readLines('prune_taxaplot.txt'))
 
 if(any(!(names(prune_tax) %in% dir()))) stop('some file names are not in this dir')
 
