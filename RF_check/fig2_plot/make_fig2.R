@@ -26,7 +26,7 @@ rna <- grepl('RNA', dat$Nuc.acid)
 pass_drt <- dat$randTest > 1
 
 pdf('Fig2.pdf', useDingbats = F, width = 7 , height = 5)
-plot(log10(dat$mean_root), dat$trTs, pch =c(1, 20)[pass_drt + 1] , col = rna + 1, ylab = expression(italic('ti/tv')), xlab = expression(paste(log[10], ' time (years)')))
+plot(log10(dat$mean_root), dat$trTs, pch =c(1, 20)[pass_drt + 1] , col = rna + 1, ylab = expression(italic('ti/tv')), xlab = expression(paste('Root-node age (', log[10], ' years)')))
 
 legend(x = 3, y = 15, bty = 'n', legend = c(expression(bold('RNA')), expression(bold('DNA'))), text.col = c('red', 'black'))
 

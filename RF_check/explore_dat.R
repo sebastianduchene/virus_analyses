@@ -10,7 +10,7 @@ pruned_dat <- raw_dat[-(grep('boot|COMPLETE', raw_dat$V1)), c(1, 2, 12, 5, 6, 13
 
 combine_dat <- merge(x = comp_dat, y = pruned_dat, by.x = 1, by.y = 1)
 
-gccont <- cbind(cg.x = ((combine_dat$V14.x + combine_dat$V15.x) / (combine_dat$V13.x + combine_dat$V16.x)), cg.y = ((combine_dat$V14.y + combine_dat$V15.y) / (combine_dat$V13.y + combine_dat$V16.y)))
+gccont <- cbind(cg.x = ((combine_dat$V14.x + combine_dat$V15.x) / (combine_dat$V13.x + combine_dat$V16.x + combine_dat$V14.x + combine_dat$V15.x)), cg.y = ((combine_dat$V14.y + combine_dat$V15.y) / (combine_dat$V13.y + combine_dat$V16.y + combine_dat$V14.y + combine_dat$V15.y)))
 
 combine_dat <- cbind(combine_dat, gccont)
 
@@ -18,7 +18,7 @@ combine_dat <- cbind(combine_dat, gccont)
 pdf('Fig1.pdf', useDingbats = F, paper = 'a4')
 par(mfrow = c(2, 2))
 par(mar = c(4, 4.5, 0.5, 0.5))
-plot(log10(combine_dat$V12.x), combine_dat$V2.x, pch = 1:10, col = 'black', ylim = c(1, 20), xlim = c(1, 4), lwd = 1.5  , ylab = expression(italic('ti/tv')) , xlab = '', xaxt = 'n', cex.lab = 1.2, cex = 1.5)#, xlab = expression(paste(log[10], ' time (years)')))
+plot(log10(combine_dat$V12.x), combine_dat$V2.x, pch = 1:10, col = 'black', ylim = c(1, 20), xlim = c(1, 4), lwd = 1.5  , ylab = expression(italic('ti/tv')) , xlab = '', xaxt = 'n', cex.lab = 1.2, cex = 1.5)#, xlab = expression(paste('Root-node age (', log[10], ' years)')))
 points(log10(combine_dat$V12.y), combine_dat$V2.y, pch = 1:10, col = 'red', lwd = 1.5, cex = 1.5)
 legend(x = 3.2, y = 20, legend = c('ASFV', 'BYDV', 'CaPV', 'CYDV', 'DEN-4', 'EBOV', 'HBV', 'HIV-1', 'RaV', 'HIV-2+SIV' ), bty = 'n', cex = 0.7, pch = 1:10, pt.cex = 1.2)
 text(x = 1.1, y = 19.8, labels = expression(bold('A')), cex = 1.3)
@@ -32,7 +32,7 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 }
 
 # dnds
-plot(log10(combine_dat$V12.x), combine_dat$V5.x, pch = 1:10, col = 'black', ylim = c(0, 2), xlim = c(1, 4), lwd = 1.5, ylab = expression(italic(d[N]/d[S])) , xlab = '', xaxt = 'n', cex.lab = 1.2,cex = 1.5)#, xlab = expression(paste(log[10], ' time (years)')))
+plot(log10(combine_dat$V12.x), combine_dat$V5.x, pch = 1:10, col = 'black', ylim = c(0, 2), xlim = c(1, 4), lwd = 1.5, ylab = expression(italic(d[N]/d[S])) , xlab = '', xaxt = 'n', cex.lab = 1.2,cex = 1.5)#, xlab = expression(paste('Root-node age (', log[10], ' years)')))
 points(log10(combine_dat$V12.y), combine_dat$V5.y, pch = 1:10, col = 'red', lwd = 1.5 , cex = 1.5)
 text(x = 1.1, y = 1.98, labels = expression(bold('B')), cex = 1.3)
 
@@ -42,7 +42,7 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 }
 
 # alpha
-plot(log10(combine_dat$V12.x), combine_dat$V6.x, pch = 1:10, col = 'black', ylim = c(0, 0.2), xlim = c(1, 4), lwd = 1.5, ylab = expression(italic(alpha)), xlab = expression(paste(log[10], ' time (years)')) , cex.lab = 1.2, cex = 1.5)
+plot(log10(combine_dat$V12.x), combine_dat$V6.x, pch = 1:10, col = 'black', ylim = c(0, 0.2), xlim = c(1, 4), lwd = 1.5, ylab = expression(italic(alpha)), xlab = expression(paste('Root-node age (', log[10], ' years)')) , cex.lab = 1.2, cex = 1.5)
 points(log10(combine_dat$V12.y), combine_dat$V6.y, pch = 1:10, col = 'red', lwd = 1.5, cex = 1.5)
 text(x = 1.1, y = 0.198, labels = expression(bold('C')), cex = 1.3)
 
@@ -54,7 +54,7 @@ lines(x = c(log10(combine_dat$V12.x[i]), log10(combine_dat$V12.y[i])), y = c(com
 # GC cont
 #l_sig_cg <- c(1, 2)[grepl('ASFV|BYDV|Capox|CYDV|dv4|HIV_|HIV2', combine_dat$V1) + 1]
 
-plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col =  'black', ylim = c(0.37, 1.1), xlim = c(1, 4), lwd = 1.5, ylab = 'CG-content', xlab = expression(paste(log[10], ' time (years)')), , cex.lab = 1.2, cex = 1.5)
+plot(log10(combine_dat$V12.x), combine_dat$cg.x, pch = 1:10, col =  'black', ylim = c(0.25, 0.55), xlim = c(1, 4), lwd = 1.5, ylab = 'CG-content', xlab = expression(paste('Root-node age (', log[10], ' years)')), , cex.lab = 1.2, cex = 1.5)
 points(log10(combine_dat$V12.y), combine_dat$cg.y, pch = 1:10, col = 'red', lwd = 1.5, cex = 1.5)
 text(x = 1.1, y = 1.09, labels = expression(bold('D')), cex = 1.3)
 
