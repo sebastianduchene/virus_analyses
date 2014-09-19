@@ -17,7 +17,7 @@ combine_dat <- cbind(combine_dat, gccont)
 # TITV
 pdf('Fig1.pdf', useDingbats = F, paper = 'a4')
 par(mfrow = c(2, 2))
-par(mar = c(4, 4.5, 0.5, 0.5))
+par(mar = c(4, 4.5, 0, 0.5))
 plot(log10(combine_dat$V12.x), combine_dat$V2.x, pch = 1:10, col = 'black', ylim = c(1, 20), xlim = c(1, 4), lwd = 1.5  , ylab = expression(italic('ti/tv')) , xlab = '', xaxt = 'n', cex.lab = 1.2, cex = 1.5)#, xlab = expression(paste('Root-node age (', log[10], ' years)')))
 points(log10(combine_dat$V12.y), combine_dat$V2.y, pch = 1:10, col = 'red', lwd = 1.5, cex = 1.5)
 legend(x = 3.2, y = 20, legend = c('ASFV', 'BYDV', 'CaPV', 'CYDV', 'DENV-4', 'EBOV', 'HBV', 'HIV-1', 'RaV', 'HIV-2+SIV' ), bty = 'n', cex = 0.7, pch = 1:10, pt.cex = 1.2)
