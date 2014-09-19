@@ -37,6 +37,11 @@ print(summary(l_rna))
 
 l_dna <- rlm(trTs ~ log10(mean_root), data = dat[!rna & pass_drt, ])
 abline(l_dna, col = 'black', lwd = 1.5)
+
+text(x = 0.9, y = 10, labels = expression(paste(italic(p), '=0.140')))
+text(x = 0.9, y = 11, labels = expression(paste(italic(p), '=0.035')), col = 'red')
+
+
 dev.off()
 
 print(summary(l_dna))
