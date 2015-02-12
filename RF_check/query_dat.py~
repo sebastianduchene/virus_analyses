@@ -1,0 +1,28 @@
+
+import Bio
+from Bio import SeqIO
+from Bio.Blast import NCBIWWW, NCBIXML
+
+dv_dat = SeqIO.to_dict(SeqIO.parse(open('dv4_36.fasta', 'rU'), 'fasta'))
+
+blast_desc = list()
+blast_lens = list()
+blast_e = list()
+
+for i in dv_dat.keys()[31:]:
+    print 'querying NCBI for %s' %i
+    temp_res = None
+    max_iter = 10
+    while (temp_res is None) and max_iter > 1: 
+        try:
+            temp_res = NCBIWWW.qblast('blastn', 'nt', dv_dat[i].seq, alignments = 1, descriptions = 1, megablast = True)
+
+            print 'downloaded data for %s' %i
+            temp_proc = NCBIXML.read(temp_res)
+            blast_desc.append(temp_proc.alignments[0].title)
+            blast_lens.append(temp_proc.alignments[0].length)
+            blast_e.append(temp_proc.expect)
+        except:
+            print 'Error. %s not found' %i
+            max_iter -= 1
+            continue
