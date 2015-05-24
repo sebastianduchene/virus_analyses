@@ -1,0 +1,11 @@
+library(phangorn)
+
+tr1 <- rtree(5)
+tr1$edge.length <- rlnorm(n = length(tr1$edge.length), meanlog = -4.5, sdlog = 0.3)
+Q <- 1:190
+bf <- (1:20)/sum(1:20)
+
+aa1 <- simSeq(tr1, type = 'AA', l = 100, Q = Q)
+write.phyDat(aa1, file= 'test_aa.fasta', format = 'fasta')
+write.nexus.data
+#opt1 <- optim.pml(pml(tr1, data = aa1), optQ = T, optEdge = F)
