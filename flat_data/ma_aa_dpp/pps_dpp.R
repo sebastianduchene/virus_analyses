@@ -28,6 +28,16 @@ multlik <- function(al){
     return(sum(sapply(al_patterns, function(x) (log(x) * x))) - (nsites*log(nsites)))
 }
 
+homogen_test <- function(seq_data){
+    if(!is.matrix(seq_data)) seq_data <- as.character(seq_data)
+    sites <- unique(as.character(seq_data))
+    count_sites <- function(seq) sapply(sites, function(x) sum(x == seq))
+    contingency_table <- t(sapply(1:nrow(seq_data), function(x) count_sites(seq_data[x, ])))
+    chi_test <- chisq.test(contingency_table)
+#    print(chi_test)
+    return(chi_test$statistic)
+}
+
 ## Function to simulate PPS using gtr+g
 simulate_pps_aa <- function(log_out, tree_out, s_len, n_samples = 10){
     if(length(tree_out) != nrow(log_out)) stop('The trees and log file have different number of samples')
