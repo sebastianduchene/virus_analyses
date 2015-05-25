@@ -1,0 +1,1460 @@
+
+
+                            MrBayes v3.2.5 x64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "Heinze_aa.nexus"
+   UNIX line termination
+   Longest line length = 136
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 58 taxa and 3324 characters
+      Data is Protein
+      Missing data coded as ?
+      Gaps coded as -
+      Data matrix is interleaved
+      Taxon  1 -> AB062063_TBEV_Oshima5-10_Japan_1995_
+      Taxon  2 -> AY169390_TBEV_Primorye-332_Russia_1991_
+      Taxon  3 -> ET816450_TBEV_Primorye-212_Russia_1991_
+      Taxon  4 -> ET816451_TBEV_Primorye-253_Russia_1991_
+      Taxon  5 -> GQ228395_TBEV_Primorye-18_Russia_1997_
+      Taxon  6 -> ET816452_TBEV_Primorye-270_Russia_1991_
+      Taxon  7 -> ET816455_TBEV_Primorye-86_Russia_1986_
+      Taxon  8 -> FJ997899_TBEV_Primorye-90_Russia_1990_
+      Taxon  9 -> ET816453_TBEV_Primorye-69_Russia_2000_
+      Taxon 10 -> AB062064_TBEV_Sofjin-HO_Russia_1937_
+      Taxon 11 -> ET816454_TBEV_Primorye-94_Russia_1994_
+      Taxon 12 -> FJ402886_TBEV_Dalnegorsk_Russia_1973_
+      Taxon 13 -> HM859895_TBEV_Primorye-2239_Russia_1985_
+      Taxon 14 -> FJ906622_TBEV_Primirye-89_Russia_1987_
+      Taxon 15 -> HM859894_TBEV_Primorye-633_Russia_1978_
+      Taxon 16 -> DQ989336_TBEV_205_Russia_1973_
+      Taxon 17 -> DQ862460_TBEV_Glubinnoe-2004_Russia_2004_
+      Taxon 18 -> FJ402885_TBEV_Kavalerovo_Russia_1985_
+      Taxon 19 -> GT121642_TBEV_Svetlogorie_Russia_2008_
+      Taxon 20 -> EF469661_TBEV_178-79_Russia1979_
+      Taxon 21 -> EF469662_TBEV_886-84_Russia_1984_
+      Taxon 22 -> AF527415_TBEV_Zausaev_Russia_1985_
+      Taxon 23 -> FJ968751_Koarovo-2008_Russia_2008_
+      Taxon 24 -> L40361_TBEV_Vasilchenko_Russia_1969_
+      Taxon 25 -> DQ486861_TBEV_EK-328_Estonia_1972_
+      Taxon 26 -> AM600965_TBEV_K23_Germany_1975_
+      Taxon 27 -> FJ572210_TBEV_Salem_Germany_2006_
+      Taxon 28 -> T27491_TBEV_263_Czech_Republic_1987_
+      Taxon 29 -> GQ266392_TBEV_AS33_Germany_2005_
+      Taxon 30 -> T27495_TBEV_Neudoerfl_Austria_1971_
+      Taxon 31 -> DQ401140__TBEV_Toro-2003_Sweden_2003_
+      Taxon 32 -> T39292_TBEV_Hypr_Czech_Republic_1953_
+      Taxon 33 -> DQ235152__SSEV_Spain_1987_
+      Taxon 34 -> NC_001809_LIV_369-T2_Scotland_1963_
+      Taxon 35 -> DQ235151_TSEV_Turkey_1960_
+      Taxon 36 -> DQ235153__GGEV_Greece_1969_
+      Taxon 37 -> AB507800_OHFV_Guriev_Russia_1947_
+      Taxon 38 -> NC_003690_Langat_Virus_TP21_Malaysia_1956_
+      Taxon 39 -> AY323490__KFDV_KFD_P-9605_India_1957_
+      Taxon 40 -> NC_004355_AHFV_1176__Saudi_Arabia_1995_
+      Taxon 41 -> AF311056_DTV_ctb30_TSA_1995_
+      Taxon 42 -> HM440559_POWV_DTVMa96_TSA_1996_
+      Taxon 43 -> HM440558_POWV_DTVWi99_TSA_1999_
+      Taxon 44 -> HM440560_POWV_DTVWiA08_TSA_2008_
+      Taxon 45 -> HM440561_POWV_DTVWiB08_TSA_2008_
+      Taxon 46 -> HM440562_POWV_DTVWiC08_TSA_2008_
+      Taxon 47 -> ET543649_POWV_Partizansk-2006_Russia_2006_
+      Taxon 48 -> ET670438_POWV_Nadezdinsk-1991_Russia_1991_
+      Taxon 49 -> NC_003687_POWV_LB_Canada_1958_
+      Taxon 50 -> ET770575_POWV_Spassk-9_Russia_1975_
+      Taxon 51 -> HM440563_POWV_64-7062_TSA_1964_
+      Taxon 52 -> DQ235145__Gadgets_Gully_virus_Australia_1975_
+      Taxon 53 -> DQ235149__Royal_Farm_virus_Afghanistan_1968_
+      Taxon 54 -> NC_006947_KSIV_LEIV-2247_Tzbekistan_1972_
+      Taxon 55 -> DQ235146__Kadam_virus_Tganda_1967_
+      Taxon 56 -> DQ235144__Meaban_virus_France_1981_
+      Taxon 57 -> DQ235150__Saumarez_Reef_virus_Australia_1977_
+      Taxon 58 -> DQ235148_Tyuleniy_virus_TSA_1971_
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1431494655
+      Setting output file names to "Heinze_aa.nexus.run<i>.<p|t>"
+   Exiting data block
+   Reading mrbayes block
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Aamodelpr to Mixed
+      Successfully set prior model parameters
+      Setting heating parameter to 0.000000
+      Setting number of chains to 1
+      Setting number of runs to 1
+      Setting chain output file names to "Heinze_aa.nexus.<p/t>"
+      Successfully set chain parameters
+      Setting chain output file names to "Heinze_mixed.<p/t>"
+      Successfully set chain parameters
+      Setting number of generations to 300000
+      Running Markov chain
+      MCMC stamp = 4603786616
+      Seed = 1972385462
+      Swapseed = 1431494655
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Protein
+            Aamodel   = Mixture of models with fixed rate matrices
+                        Substitution rates come from the mixture of models
+            Covarion  = No
+            # States  = 20
+                        State frequencies come from the mixture of models
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         Aamodel             6
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Fixed (from mixture of models)
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+         6 --  Parameter  = Aamodel
+               Type       = Aminoacid model
+               Prior      = Poisson, Jones, Dayhoff, Mtrev, Mtmam, Wag, Rtrev,
+                            Cprev, Vt, and Blosum models have equal prior probability
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            2.22 %   Multiplier(Alpha)
+           11.11 %   ExtSPR(Tau,V)
+           11.11 %   ExtTBR(Tau,V)
+           11.11 %   NNI(Tau,V)
+           11.11 %   ParsSPR(Tau,V)
+           33.33 %   Multiplier(V)
+           11.11 %   Nodeslider(V)
+            6.67 %   TLMultiplier(V)
+            2.22 %   Uniform(Aamodel)
+
+      Division 1 has 2127 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs:
+         Chain 1 -- -139569.860810 -- 116.319595
+
+      Overwriting file "Heinze_mixed.mcmc"
+      Overwriting file "Heinze_mixed.p"
+      Overwriting file "Heinze_mixed.t"
+
+      Chain results (300000 generations requested):
+
+          0 -- -139569.861 
+       1000 -- -66452.108 -- 1:24:43
+       2000 -- -58327.957 -- 1:16:59
+
+
+                            MrBayes v3.2.5 x64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "Moureau_aa.nexus"
+   UNIX line termination
+   Longest line length = 136
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 100 taxa and 2463 characters
+      Data is Protein
+      Missing data coded as ?
+      Gaps coded as -
+      Data matrix is interleaved
+      Taxon   1 -> AB062064_TBEV_Russia_1937
+      Taxon   2 -> AF069066_TBEV_Russia_1969
+      Taxon   3 -> AF094612.1_YFV_America_1979
+      Taxon   4 -> AF144692.1_RBV_USA_1954
+      Taxon   5 -> AF160193_APOIV_Japan_1954
+      Taxon   6 -> AF311056_DTV_USA_1995
+      Taxon   7 -> AJ242984.1_MODV_USA_1958
+      Taxon   8 -> AJ299445.1_MMLV_USA_1958
+      Taxon   9 -> AY277251_WNV_Russia_1998
+      Taxon  10 -> AY323490_KFDV_India_1957
+      Taxon  11 -> AY453411_USUV_Austria_2001
+      Taxon  12 -> AY453412.1_USUV_South-Africa_1958
+      Taxon  13 -> AY618991_DENV4_Thailand_1977
+      Taxon  14 -> AY632537_ENTV_Uganda_1957
+      Taxon  15 -> AY632538.4_IGUV_nn_1979
+      Taxon  16 -> AY632539.4_ILHV_nn_1944
+      Taxon  17 -> AY632542.4_ROCV_nn_1975
+      Taxon  18 -> AY632545.2_BAGV_Central_African_Republic_1966
+      Taxon  19 -> AY648961_DENV3_Indonesia_1978
+      Taxon  20 -> AY765264_WNV_CzechRepublic_1997
+      Taxon  21 -> AY842931_WNV_USA_1999
+      Taxon  22 -> AY898809_ALFV_Australia_1966
+      Taxon  23 -> AY968064_YFV_Angola_1971
+      Taxon  24 -> D00246.1_KUNV_nn_1960
+      Taxon  25 -> DQ116961_WNV_Hungary_2004
+      Taxon  26 -> DQ181801_DENV2_Thailand_1990
+      Taxon  27 -> DQ235144.1_MEAV_France_1981
+      Taxon  28 -> DQ235145.1_GGYV_Australia_1975
+      Taxon  29 -> DQ235146.1_KADV_Uganda_1967
+      Taxon  30 -> DQ235147_KSIV_Uzbekistan_1972
+      Taxon  31 -> DQ235148.1_TYUV_USA_1971
+      Taxon  32 -> DQ235149.1_RFV_Afghanistan_1968
+      Taxon  33 -> DQ235150.1_SREV_Australia_1974
+      Taxon  34 -> DQ235151.1_TSEV_Turkey_1969
+      Taxon  35 -> DQ235152.1_SSEV_Spain_1987
+      Taxon  36 -> DQ235153.1_GGEV_Greece_1969
+      Taxon  37 -> DQ256376_WNV_India_1980
+      Taxon  38 -> DQ318020_WNV_Central_African_Republic_1982
+      Taxon  39 -> DQ359217.1_SLEV_USA_1975
+      Taxon  40 -> DQ859056.1_BANV_South_Africa_1956
+      Taxon  41 -> DQ859057.1_BOUV_Central_African_Republic_1967
+      Taxon  42 -> DQ859058.1_WESSV_South_Africa_1955
+      Taxon  43 -> DQ859059.1_ZIKV_Uganda_1947
+      Taxon  44 -> DQ859060.1_EHV_Australia_1969
+      Taxon  45 -> DQ859061_KEDV_Senegal_1972
+      Taxon  46 -> DQ859062.1_SABV_Senegal_1968
+      Taxon  47 -> DQ859063.1_SEPV_New_Guinea_1966
+      Taxon  48 -> DQ859064.1_SPOV_South_Africa_1955
+      Taxon  49 -> DQ859065.1_UGSV_Uganda_1947
+      Taxon  50 -> DQ859066.1_JUGV_Malaysia_1968
+      Taxon  51 -> DQ859067.1_POTV_Nigeria_1989
+      Taxon  52 -> EF105385_DENV2_Senegal_1974
+      Taxon  53 -> EU081265_DENV1_Singapore_2005
+      Taxon  54 -> EU082199.1_YAOV_Cameroon_1968
+      Taxon  55 -> EU082200_KOUV_Senegal_1968
+      Taxon  56 -> EU482458_DENV3_Vietnam_2006
+      Taxon  57 -> EU482757_DENV2_Nicaragua_2005
+      Taxon  58 -> EU482822_DENV1_Vietnam_2006
+      Taxon  59 -> EU545988_ZIKV_Micronesia_2007
+      Taxon  60 -> EU687249_DENV2_Vietnam_2007
+      Taxon  61 -> FJ606789_LAMV_Finland_2004
+      Taxon  62 -> FJ883471_CHAOV_China_2008
+      Taxon  63 -> FJ898457_DENV3_Ecuador_2000
+      Taxon  64 -> GQ199877_DENV1_Venenzuela_2007
+      Taxon  65 -> GQ398262_DENV2_Indonesia_1976
+      Taxon  66 -> GQ868600_DENV2_Puerto_Rico_1969
+      Taxon  67 -> JF262779_DENV4_Malaysia_1975
+      Taxon  68 -> JF262782_DENV4_Haiti_1994
+      Taxon  69 -> JF312912.1_BYDV_China_2010
+      Taxon  70 -> JF912181_YFV_Brazil_1983
+      Taxon  71 -> JF912184_YFV_Brazil_1987
+      Taxon  72 -> JF926699_LAFV_China_2010
+      Taxon  73 -> JX236040.1_NTAV_nn_1966
+      Taxon  74 -> JX477685_TMUV_Malaysia_1955
+      Taxon  75 -> JX477686.1_STWV_Malaysia_2000
+      Taxon  76 -> JX898878_YFV_Senegal_2005
+      Taxon  77 -> KC692067_IOMV_Finland_2007
+      Taxon  78 -> KC692068_LAMV_Finland_2007
+      Taxon  79 -> KC734549_ITMV_Israel_1985
+      Taxon  80 -> KC734550_ITMV_Israel_1995
+      Taxon  81 -> KC734551_ITV_Israel_2010
+      Taxon  82 -> KC734553_ITMV_Israel_2010
+      Taxon  83 -> KF917535.1_AROAV_Venezuela_1975
+      Taxon  84 -> KF917536.1_CPCV_Brazil_1977
+      Taxon  85 -> KF917537.1_ITV_Israel_1959
+      Taxon  86 -> KF917539.1_NTAV_Uganda_1943
+      Taxon  87 -> KM225263_STFV_Australia_1961
+      Taxon  88 -> NC_001563.2_WNV_Uganda_956
+      Taxon  89 -> NC_001809.1_LIV_United
+      Taxon  90 -> NC_003687_POWV_Canada_1958
+      Taxon  91 -> NC_003690_LGTV_Malaysia_1956
+      Taxon  92 -> NC_004355_AHFV_Saudi_Arabia_1995
+      Taxon  93 -> NC_005039_YOKV_Japan_1971
+      Taxon  94 -> NC_009026_BSQV_nn_1956
+      Taxon  95 -> NC_009029_KOKV_nn_1960
+      Taxon  96 -> NC_016997.1_DGV_China_2009
+      Taxon  97 -> NC_018705_NTAV_nn_1966
+      Taxon  98 -> U27495_TBEV_Austria_1971
+      Taxon  99 -> U39292_TBEV_Czech
+      Taxon 100 -> U54798_YFV_IvoryCoast_1982
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1431494701
+      Setting output file names to "Moureau_aa.nexus.run<i>.<p|t>"
+   Exiting data block
+   Reading mrbayes block
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Aamodelpr to Mixed
+      Successfully set prior model parameters
+      Setting heating parameter to 0.000000
+      Setting number of chains to 1
+      Setting number of runs to 1
+      Setting chain output file names to "Moureau_aa.nexus.<p/t>"
+      Successfully set chain parameters
+      Setting chain output file names to "Moureau_mixed.<p/t>"
+      Successfully set chain parameters
+      Setting number of generations to 30000
+      Running Markov chain
+      MCMC stamp = 4774298836
+      Seed = 422780534
+      Swapseed = 1431494701
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Protein
+            Aamodel   = Mixture of models with fixed rate matrices
+                        Substitution rates come from the mixture of models
+            Covarion  = No
+            # States  = 20
+                        State frequencies come from the mixture of models
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         Aamodel             6
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Fixed (from mixture of models)
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+         6 --  Parameter  = Aamodel
+               Type       = Aminoacid model
+               Prior      = Poisson, Jones, Dayhoff, Mtrev, Mtmam, Wag, Rtrev,
+                            Cprev, Vt, and Blosum models have equal prior probability
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            2.22 %   Multiplier(Alpha)
+           11.11 %   ExtSPR(Tau,V)
+           11.11 %   ExtTBR(Tau,V)
+           11.11 %   NNI(Tau,V)
+           11.11 %   ParsSPR(Tau,V)
+           33.33 %   Multiplier(V)
+           11.11 %   Nodeslider(V)
+            6.67 %   TLMultiplier(V)
+            2.22 %   Uniform(Aamodel)
+
+      Division 1 has 2023 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs:
+         Chain 1 -- -407911.261279 -- 150.019502
+
+      Overwriting file "Moureau_mixed.mcmc"
+      Overwriting file "Moureau_mixed.p"
+      Overwriting file "Moureau_mixed.t"
+
+      Chain results (30000 generations requested):
+
+          0 -- -407911.261 
+       3000 -- -56712.650 -- 1:15:54
+       4000 -- -55544.354 -- 1:14:00
+       5000 -- -54968.007 -- 1:13:45
+
+
+                            MrBayes v3.2.5 x64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "Petterson_aa.nexus"
+   UNIX line termination
+   Longest line length = 132
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 83 taxa and 2016 characters
+      Data is Protein
+      Missing data coded as ?
+      Gaps coded as -
+      Data matrix is interleaved
+      Taxon  1 -> AB062063_TBEV_nn_1995
+      Taxon  2 -> AB062064_TBEV_Russia_1937
+      Taxon  3 -> AB114858_YOKV_Japan_1971
+      Taxon  4 -> AB262759_CxFV_Japan_2003
+      Taxon  5 -> AB507800_OHFV_Russia_1947
+      Taxon  6 -> AF038403_DENV2_NewGuinea_1944
+      Taxon  7 -> AF069066_TBEV_Russia_1969
+      Taxon  8 -> AF094612_YFV_America_1979
+      Taxon  9 -> AF144692_RBV_USA_1954
+      Taxon 10 -> AF160193_APOIV_Japan_1954
+      Taxon 11 -> AF161266_MVEV_nn_1956
+      Taxon 12 -> AF196835_WNV_USA_1999
+      Taxon 13 -> AF253419_LGTV_Malaysia_1956
+      Taxon 14 -> AF331718_AHFV_SaudiArabia_1995
+      Taxon 15 -> AJ242984_MODV_USA_1958
+      Taxon 16 -> AJ299445_MMLV_USA_1958
+      Taxon 17 -> AY438626_OHFV_Russia_1947
+      Taxon 18 -> AY453412_USUV_South-Africa_1958
+      Taxon 19 -> AY632538.4_IGUV_nn_1979
+      Taxon 20 -> AY632539.4_ILHV_nn_1944
+      Taxon 21 -> AY632540_KEDV_Senegal_1972
+      Taxon 22 -> AY632542.4_ROCV_nn_1975
+      Taxon 23 -> AY632545_BAGV_CentralAfricanRepublic_1966
+      Taxon 24 -> AY765264_WNV_CzechRepublic_1997
+      Taxon 25 -> AY898809_ALFV_Australia_1966
+      Taxon 26 -> M93130_DENV3_nn_1956
+      Taxon 27 -> M14931_DENV4_nn_1956
+      Taxon 28 -> DQ235144_MEAV_France_1981
+      Taxon 29 -> DQ235145_GGYV_Australia_1975
+      Taxon 30 -> DQ235146_KADV_Uganda_1967
+      Taxon 31 -> DQ235148_TYUV_USA_1971
+      Taxon 32 -> DQ235149_RFV_Afghanistan_1968
+      Taxon 33 -> DQ235150_SREV_Australia_1974
+      Taxon 34 -> DQ235151_TSEV_Turkey_1969
+      Taxon 35 -> DQ235152_SSEV_Spain_1987
+      Taxon 36 -> DQ235153_GGEV_Greece_1969
+      Taxon 37 -> DQ359217_SLEV_USA_1975
+      Taxon 38 -> DQ837641_ENTV_Uganda_1957
+      Taxon 39 -> DQ859056_BANV_SouthAfrica_1956
+      Taxon 40 -> DQ859057_BOUV_CentralAfricanRepublic_1967
+      Taxon 41 -> DQ859058_WESSV_SouthAfrica_1955
+      Taxon 42 -> DQ859059_ZIKV_Uganda_1947
+      Taxon 43 -> DQ859060_EHV_Australia_1969
+      Taxon 44 -> DQ859062_SABV_Senegal_1968
+      Taxon 45 -> DQ859063_SEPV_NewGuinea_1966
+      Taxon 46 -> DQ859064_SPOV_SouthAfrica_1955
+      Taxon 47 -> DQ859065_UGSV_Uganda_1947
+      Taxon 48 -> DQ859066_JUGV_Malaysia_1968
+      Taxon 49 -> DQ859067_POTV_Nigeria_1989
+      Taxon 50 -> U88536_DENV1_NauruIsland_1974
+      Taxon 51 -> EF469661_TBEV_Russia_1979
+      Taxon 52 -> EF469662_TBEV_Russia_1984
+      Taxon 53 -> EU082199_YAOV_Cameroon_1968
+      Taxon 54 -> EU082200_KOUV_Senegal_1968
+      Taxon 55 -> FJ572210_TBEV_Germany_2006
+      Taxon 56 -> FJ606789_LAMV_Finland_2004
+      Taxon 57 -> FJ711167_NOUV_CoteIvoireI_2004
+      Taxon 58 -> GQ165809_NAKV_Uganda_2008
+      Taxon 59 -> GU183384_TBEV_Estonia_2000
+      Taxon 60 -> HQ644143_BAGV_Spain_2010
+      Taxon 61 -> JM18370_JEV_nn_1982
+      Taxon 62 -> JF312912_BYDV_China_2010
+      Taxon 63 -> JF416959_KFDV_India_1957
+      Taxon 64 -> JQ068102_CHAOV_SouthKorea_2003
+      Taxon 65 -> JQ268258_HANKV_Finland_2005
+      Taxon 66 -> JQ314465_TMUV_China_2010
+      Taxon 67 -> JX236040_NTAV_nn_1966
+      Taxon 68 -> JX477686_STWV_Malaysia_2000
+      Taxon 69 -> KC181923_AEFV_USA_2011
+      Taxon 70 -> KC505248_PCV_Australia_2010
+      Taxon 71 -> KC788512_NMV_Australia_1998
+      Taxon 72 -> D00246_KUNV_nn_1960
+      Taxon 73 -> NC_001563_WNV_Uganda_1937
+      Taxon 74 -> NC_001564_CFAV_nn_1975
+      Taxon 75 -> NC_001809_LIV_UnitedKingdom_1963
+      Taxon 76 -> NC_005064_KRV_Kenya_1999
+      Taxon 77 -> NC_006947_KSIV_Uzbekistan_1972
+      Taxon 78 -> NC_009026_BSQV_nn_1956
+      Taxon 79 -> NC_009029_KOKV_nn_1960
+      Taxon 80 -> NC_012671_QBV_Vietnam_2002
+      Taxon 81 -> NC_016997_DGV_China_2009
+      Taxon 82 -> L06436_POWV_Canada_1958
+      Taxon 83 -> TEU27495_TBEV_Austria_1971
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1431494737
+      Setting output file names to "Petterson_aa.nexus.run<i>.<p|t>"
+   Exiting data block
+   Reading mrbayes block
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting Aamodelpr to Mixed
+      Successfully set prior model parameters
+      Setting heating parameter to 0.000000
+      Setting number of chains to 1
+      Setting number of runs to 1
+      Setting chain output file names to "Petterson_aa.nexus.<p/t>"
+      Successfully set chain parameters
+      Setting chain output file names to "Petterson_mixed.<p/t>"
+      Successfully set chain parameters
+      Setting number of generations to 300000
+      Running Markov chain
+      MCMC stamp = 4499485382
+      Seed = 605131566
+      Swapseed = 1431494737
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = Protein
+            Aamodel   = Mixture of models with fixed rate matrices
+                        Substitution rates come from the mixture of models
+            Covarion  = No
+            # States  = 20
+                        State frequencies come from the mixture of models
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Likelihood summarized over all rate categories in each generation.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Statefreq           1
+         Shape               2
+         Ratemultiplier      3
+         Topology            4
+         Brlens              5
+         Aamodel             6
+         ---------------------
+
+         1 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Fixed (from mixture of models)
+
+         2 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         3 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         4 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         5 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+         6 --  Parameter  = Aamodel
+               Type       = Aminoacid model
+               Prior      = Poisson, Jones, Dayhoff, Mtrev, Mtmam, Wag, Rtrev,
+                            Cprev, Vt, and Blosum models have equal prior probability
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            2.22 %   Multiplier(Alpha)
+           11.11 %   ExtSPR(Tau,V)
+           11.11 %   ExtTBR(Tau,V)
+           11.11 %   NNI(Tau,V)
+           11.11 %   ParsSPR(Tau,V)
+           33.33 %   Multiplier(V)
+           11.11 %   Nodeslider(V)
+            6.67 %   TLMultiplier(V)
+            2.22 %   Uniform(Aamodel)
+
+      Division 1 has 1747 unique site patterns
+      Initializing conditional likelihoods
+      Using standard SSE likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs:
+         Chain 1 -- -301220.619475 -- 139.144104
+
+      Overwriting file "Petterson_mixed.mcmc"
+      Overwriting file "Petterson_mixed.p"
+      Overwriting file "Petterson_mixed.t"
+
+      Chain results (300000 generations requested):
+
+          0 -- -301220.619 
+       6000 -- -54729.793 -- 1:13:30
+       7000 -- -54680.541 -- 1:13:56
+       1000 -- -212248.077 -- 0:29:00
+       1000 -- -156079.035 -- 2:54:25
+       8000 -- -54670.772 -- 1:14:13
+       9000 -- -54690.086 -- 1:14:22
+       2000 -- -160189.721 -- 0:22:24
+       2000 -- -131732.329 -- 2:46:23
+      10000 -- -54669.302 -- 1:13:57
+      11000 -- -54658.449 -- 1:13:33
+       3000 -- -144973.122 -- 0:19:39
+      12000 -- -54643.306 -- 1:13:36
+       3000 -- -126699.661 -- 2:51:36
+      13000 -- -54650.753 -- 1:13:13
+       4000 -- -139732.257 -- 0:17:52
+      14000 -- -54647.481 -- 1:13:12
+       4000 -- -124765.842 -- 2:52:40
+      15000 -- -54645.384 -- 1:12:50
+       5000 -- -137482.991 -- 0:16:10
+      16000 -- -54630.664 -- 1:12:28
+       5000 -- -124306.888 -- 2:53:04
+      17000 -- -54651.383 -- 1:12:08
+       6000 -- -136231.878 -- 0:14:56
+      18000 -- -54637.887 -- 1:12:04
+      19000 -- -54643.454 -- 1:11:43
+       6000 -- -123992.002 -- 2:53:56
+       7000 -- -135633.851 -- 0:13:57
+      20000 -- -54643.452 -- 1:11:24
+      21000 -- -54650.429 -- 1:11:04
+       7000 -- -123827.493 -- 2:54:24
+       8000 -- -135254.849 -- 0:13:09
+      22000 -- -54652.015 -- 1:10:45
+      23000 -- -54637.124 -- 1:10:27
+      24000 -- -54625.027 -- 1:10:09
+       9000 -- -135047.141 -- 0:12:26
+       8000 -- -123652.483 -- 2:55:48
+      25000 -- -54633.662 -- 1:09:51
+      26000 -- -54644.825 -- 1:09:43
+      10000 -- -134876.203 -- 0:11:49
+       9000 -- -123595.218 -- 2:56:45
+      27000 -- -54644.630 -- 1:09:25
+      28000 -- -54637.044 -- 1:09:08
+      11000 -- -134817.827 -- 0:11:13
+      29000 -- -54643.113 -- 1:08:41
+      10000 -- -123519.402 -- 2:57:52
+      30000 -- -54634.773 -- 1:08:24
+      12000 -- -134778.647 -- 0:10:36
+      31000 -- -54639.300 -- 1:07:58
+      32000 -- -54647.488 -- 1:07:33
+      11000 -- -123503.411 -- 2:59:31
+      33000 -- -54645.957 -- 1:07:17
+      13000 -- -134768.957 -- 0:09:58
+      34000 -- -54641.123 -- 1:07:01
+      35000 -- -54641.861 -- 1:06:45
+      12000 -- -123496.161 -- 3:00:48
+      14000 -- -134758.418 -- 0:09:21
+      36000 -- -54644.440 -- 1:06:36
+      37000 -- -54648.873 -- 1:06:20
+      15000 -- -134732.091 -- 0:08:44
+      13000 -- -123490.093 -- 3:01:46
+      38000 -- -54641.712 -- 1:06:04
+      39000 -- -54628.149 -- 1:05:41
+      16000 -- -134729.212 -- 0:08:08
+      40000 -- -54624.516 -- 1:05:26
+      14000 -- -123489.319 -- 3:01:48
+      41000 -- -54634.905 -- 1:05:16
+      42000 -- -54658.530 -- 1:05:00
+      17000 -- -134718.454 -- 0:07:32
+      43000 -- -54631.342 -- 1:04:38
+      15000 -- -123474.384 -- 3:02:05
+      44000 -- -54634.006 -- 1:04:23
+      18000 -- -134729.066 -- 0:06:58
+      45000 -- -54651.206 -- 1:04:13
+      46000 -- -54647.613 -- 1:03:57
+      16000 -- -123479.944 -- 3:02:31
+      19000 -- -134715.658 -- 0:06:22
+      47000 -- -54644.603 -- 1:03:41
+      48000 -- -54648.109 -- 1:03:26
+      17000 -- -123481.118 -- 3:02:50
+      49000 -- -54643.029 -- 1:03:10
+      20000 -- -134725.531 -- 0:05:47
+      50000 -- -54636.909 -- 1:03:00
+      51000 -- -54633.061 -- 1:02:44
+      21000 -- -134732.509 -- 0:05:12
+      18000 -- -123466.685 -- 3:02:31
+      52000 -- -54651.305 -- 1:02:28
+      53000 -- -54638.217 -- 1:02:12
+      22000 -- -134737.204 -- 0:04:38
+      54000 -- -54647.081 -- 1:01:57
+      19000 -- -123468.571 -- 3:02:39
+      55000 -- -54663.168 -- 1:01:41
+      23000 -- -134743.853 -- 0:04:03
+      56000 -- -54654.212 -- 1:01:26
+      57000 -- -54651.037 -- 1:01:06
+      20000 -- -123477.617 -- 3:02:28
+      58000 -- -54647.532 -- 1:00:50
+      24000 -- -134742.979 -- 0:03:28
+      59000 -- -54655.414 -- 1:00:31
+      60000 -- -54645.327 -- 1:00:16
+      21000 -- -123471.580 -- 3:02:27
+      25000 -- -134753.499 -- 0:02:53
+      61000 -- -54646.197 -- 1:00:00
+      62000 -- -54649.372 -- 0:59:49
+      26000 -- -134749.479 -- 0:02:18
+      22000 -- -123464.690 -- 3:02:35
+      63000 -- -54644.213 -- 0:59:33
+      64000 -- -54633.602 -- 0:59:18
+      27000 -- -134742.187 -- 0:01:43
+      65000 -- -54646.255 -- 0:59:03
+      23000 -- -123472.616 -- 3:02:15
+      66000 -- -54636.751 -- 0:58:44
+      28000 -- -134740.166 -- 0:01:08
+      67000 -- -54641.170 -- 0:58:28
+      68000 -- -54647.716 -- 0:58:13
+      24000 -- -123466.670 -- 3:02:05
+      69000 -- -54641.132 -- 0:58:01
+      29000 -- -134740.768 -- 0:00:34
+      70000 -- -54633.173 -- 0:57:43
+      71000 -- -54639.603 -- 0:57:27
+      25000 -- -123478.942 -- 3:01:52
+      30000 -- -134748.279 -- 0:00:00
+
+      Analysis completed in 17 mins 10 seconds
+      Analysis used 1029.89 seconds of CPU time
+      Log likelihood of best state was -134713.23
+      Acceptance rates for the moves:
+         With prob.   (last 100)   chain accepted proposals by move
+             9.0 %     (  8 %)     Multiplier(Alpha)
+             3.3 %     (  2 %)     ExtSPR(Tau,V)
+             2.6 %     (  0 %)     ExtTBR(Tau,V)
+             4.4 %     (  7 %)     NNI(Tau,V)
+             8.4 %     (  5 %)     ParsSPR(Tau,V)
+            31.2 %     ( 32 %)     Multiplier(V)
+            18.6 %     ( 21 %)     Nodeslider(V)
+             5.7 %     (  6 %)     TLMultiplier(V)
+             0.8 %     (  0 %)     Uniform(Aamodel)
+      Summarizing parameters in file Moureau_mixed.p
+      Writing summary statistics to file Moureau_mixed.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of samples
+
+      Below is a rough plot of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use this      
+      graph to determine what the burn in for your analysis should be.  
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      analysis should be. When the log probability starts to plateau    
+      tionarity. When possible, run multiple analyses starting from dif-
+      ferent random trees; if the inferences you make for independent   
+      analyses are the same, this is reasonable evidence that the chains
+      have converged. You can use MrBayes to run several independent    
+      analyses simultaneously. During such a run, MrBayes will monitor  
+      the convergence of topologies. After the run has been completed,  
+      the 'sumt' and 'sump' functions will provide additional conver-   
+      gence diagnostics for all the parameters in your model. Remember  
+      that the burn in is the number of samples to discard. There are   
+      a total of ngen / samplefreq samples taken during a MCMC analysis.
+
+   +------------------------------------------------------------+ -134715.700
+   |                *** *** *** *** *** *** *** *** *** *** ****|
+   |          * ***                                             |
+   |        **                                                  |
+   |      *                                                     |
+   |     *                                                      |
+   |                                                            |
+   |    *                                                       |
+   |                                                            |
+   |  *                                                         |
+   |                                                            |
+   | *                                                          |
+   |                                                            |
+   |                                                            |
+   |                                                            |
+   |*                                                           |
+   +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -135478.100
+   ^                                                            ^
+   7500                                                        30000
+
+      Overwriting file "Moureau_mixed.lstat"
+
+      Estimated marginal likelihoods for run sampled in file "Moureau_mixed.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+         (Values are saved to the file Moureau_mixed.lstat)
+
+      Arithmetic mean   Harmonic mean
+      --------------------------------
+        -134719.22        -135474.27
+      --------------------------------
+
+
+      Model parameter summaries for run sampled in file "Moureau_mixed":
+         Based on a total of 46 samples out of a total of 61 samples
+            from this analysis.
+         Parameter summaries saved to file "Moureau_mixed.pstat".
+      Overwriting file "Moureau_mixed.pstat"
+
+                                            95% HPD Interval
+                                          --------------------
+      Parameter      Mean      Variance     Lower       Upper       Median     ESS*
+      -------------------------------------------------------------------------------
+      TL         14.939005    0.064042   14.474150   15.378830   14.960730     45.94
+      alpha       0.728375    0.000174    0.696576    0.750899    0.726861     22.81
+      -------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); ESS value 
+        below 100 may indicate that the parameter is undersampled. 
+
+
+      Model probabilities above 0.050
+      Estimates saved to file "Moureau_mixed.mstat".
+      Overwriting file "Moureau_mixed.mstat"
+
+                              Posterior
+      Model                  Probability
+      ----------------------------------
+      aamodel[Rtrev]            1.000
+      ----------------------------------
+
+   Exiting mrbayes block
+   Reached end of file
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+
+      72000 -- -54644.056 -- 0:57:12
+      73000 -- -54644.181 -- 0:56:54
+      74000 -- -54640.501 -- 0:56:39
+      26000 -- -123467.979 -- 3:01:47
+      75000 -- -54631.298 -- 0:56:24
+      76000 -- -54641.776 -- 0:56:08
+      77000 -- -54644.721 -- 0:55:50
+      27000 -- -123479.913 -- 3:01:29
+      78000 -- -54651.170 -- 0:55:32
+      79000 -- -54649.999 -- 0:55:17
+      28000 -- -123467.947 -- 3:00:50
+      80000 -- -54644.897 -- 0:55:02
+      81000 -- -54651.065 -- 0:54:45
+      82000 -- -54641.435 -- 0:54:30
+      29000 -- -123448.810 -- 3:00:40
+      83000 -- -54646.136 -- 0:54:15
+      84000 -- -54635.927 -- 0:54:00
+      85000 -- -54637.765 -- 0:53:47
+      30000 -- -123448.938 -- 3:00:18
+      86000 -- -54633.456 -- 0:53:30
+      87000 -- -54638.136 -- 0:53:17
+      88000 -- -54640.353 -- 0:53:02
+      31000 -- -123461.476 -- 2:59:54
+      89000 -- -54630.264 -- 0:52:47
+      90000 -- -54642.115 -- 0:52:30
+      91000 -- -54647.401 -- 0:52:17
+      32000 -- -123468.819 -- 2:59:38
+      92000 -- -54643.451 -- 0:52:00
+      93000 -- -54641.579 -- 0:51:45
+      33000 -- -123464.109 -- 2:59:12
+      94000 -- -54641.363 -- 0:51:32
+      95000 -- -54644.191 -- 0:51:17
+      96000 -- -54633.369 -- 0:51:04
+      34000 -- -123452.498 -- 2:58:53
+      97000 -- -54636.007 -- 0:50:49
+      98000 -- -54642.035 -- 0:50:36
+      99000 -- -54635.901 -- 0:50:21
+      35000 -- -123448.513 -- 2:58:26
+      100000 -- -54649.528 -- 0:50:06
+      101000 -- -54633.264 -- 0:49:50
+      102000 -- -54641.477 -- 0:49:33
+      36000 -- -123467.737 -- 2:57:50
+      103000 -- -54652.081 -- 0:49:20
+      104000 -- -54663.239 -- 0:49:05
+      105000 -- -54655.946 -- 0:48:50
+      37000 -- -123457.227 -- 2:57:20
+      106000 -- -54649.695 -- 0:48:35
+      107000 -- -54647.882 -- 0:48:18
+      38000 -- -123458.239 -- 2:56:44
+      108000 -- -54641.510 -- 0:48:05
+      109000 -- -54651.997 -- 0:47:48
+      110000 -- -54655.629 -- 0:47:33
+      39000 -- -123462.956 -- 2:56:13
+      111000 -- -54654.685 -- 0:47:18
+      112000 -- -54657.548 -- 0:47:01
+      113000 -- -54653.739 -- 0:46:48
+      40000 -- -123471.596 -- 2:55:43
+      114000 -- -54643.740 -- 0:46:34
+      115000 -- -54655.486 -- 0:46:18
+      116000 -- -54647.299 -- 0:46:03
+      41000 -- -123476.693 -- 2:55:11
+      117000 -- -54634.566 -- 0:45:48
+      118000 -- -54633.501 -- 0:45:31
+      119000 -- -54630.446 -- 0:45:16
+      42000 -- -123477.696 -- 2:54:39
+      120000 -- -54627.623 -- 0:45:01
+      121000 -- -54625.063 -- 0:44:47
+      43000 -- -123475.060 -- 2:54:07
+      122000 -- -54624.034 -- 0:44:31
+      123000 -- -54639.267 -- 0:44:16
+      124000 -- -54647.774 -- 0:44:00
+      44000 -- -123484.764 -- 2:53:40
+      125000 -- -54635.946 -- 0:43:46
+      126000 -- -54631.901 -- 0:43:31
+      127000 -- -54647.912 -- 0:43:16
+      45000 -- -123470.733 -- 2:52:55
+      128000 -- -54650.617 -- 0:43:01
+      129000 -- -54659.024 -- 0:42:45
+      130000 -- -54654.086 -- 0:42:30
+      46000 -- -123470.720 -- 2:52:16
+      131000 -- -54641.829 -- 0:42:15
+      132000 -- -54645.293 -- 0:42:00
+      133000 -- -54639.378 -- 0:41:43
+      47000 -- -123464.529 -- 2:51:37
+      134000 -- -54654.779 -- 0:41:28
+      135000 -- -54662.248 -- 0:41:13
+      48000 -- -123479.322 -- 2:51:03
+      136000 -- -54650.603 -- 0:40:58
+      137000 -- -54650.252 -- 0:40:45
+      138000 -- -54654.113 -- 0:40:30
+      49000 -- -123463.822 -- 2:50:29
+      139000 -- -54654.106 -- 0:40:13
+      140000 -- -54635.830 -- 0:39:58
+      141000 -- -54666.402 -- 0:39:45
+      50000 -- -123482.914 -- 2:49:55
+      142000 -- -54651.022 -- 0:39:31
+      143000 -- -54640.419 -- 0:39:16
+      144000 -- -54643.035 -- 0:39:00
+      51000 -- -123479.623 -- 2:49:20
+      145000 -- -54638.370 -- 0:38:45
+      146000 -- -54642.089 -- 0:38:28
+      52000 -- -123474.817 -- 2:48:45
+      147000 -- -54652.060 -- 0:38:13
+      148000 -- -54642.143 -- 0:38:00
+      149000 -- -54642.237 -- 0:37:45
+      53000 -- -123462.556 -- 2:48:09
+      150000 -- -54655.988 -- 0:37:30
+      151000 -- -54651.305 -- 0:37:15
+      152000 -- -54651.811 -- 0:37:00
+      54000 -- -123460.655 -- 2:47:34
+      153000 -- -54648.608 -- 0:36:44
+      154000 -- -54651.930 -- 0:36:29
+      155000 -- -54653.968 -- 0:36:15
+      55000 -- -123472.299 -- 2:46:58
+      156000 -- -54643.358 -- 0:36:00
+      157000 -- -54646.173 -- 0:35:44
+      158000 -- -54645.807 -- 0:35:29
+      56000 -- -123454.152 -- 2:46:17
+      159000 -- -54637.283 -- 0:35:14
+      160000 -- -54633.817 -- 0:34:59
+      161000 -- -54644.230 -- 0:34:43
+      57000 -- -123447.157 -- 2:45:45
+      162000 -- -54646.360 -- 0:34:27
+      163000 -- -54642.368 -- 0:34:12
+      58000 -- -123458.054 -- 2:45:13
+      164000 -- -54647.096 -- 0:33:57
+      165000 -- -54643.125 -- 0:33:42
+      166000 -- -54645.792 -- 0:33:27
+      59000 -- -123464.528 -- 2:44:32
+      167000 -- -54639.559 -- 0:33:11
+      168000 -- -54652.626 -- 0:32:57
+      169000 -- -54637.343 -- 0:32:41
+      60000 -- -123460.923 -- 2:43:56
+      170000 -- -54649.348 -- 0:32:26
+      171000 -- -54656.158 -- 0:32:11
+      172000 -- -54654.590 -- 0:31:57
+      61000 -- -123452.791 -- 2:43:19
+      173000 -- -54642.657 -- 0:31:42
+      174000 -- -54629.200 -- 0:31:27
+      175000 -- -54630.845 -- 0:31:12
+      62000 -- -123454.670 -- 2:42:45
+      176000 -- -54624.753 -- 0:30:57
+      177000 -- -54647.627 -- 0:30:43
+      63000 -- -123465.317 -- 2:42:04
+      178000 -- -54663.398 -- 0:30:28
+      179000 -- -54658.618 -- 0:30:13
+      180000 -- -54657.212 -- 0:29:58
+      64000 -- -123468.096 -- 2:41:30
+      181000 -- -54641.431 -- 0:29:43
+      182000 -- -54647.998 -- 0:29:29
+      183000 -- -54643.055 -- 0:29:15
+      65000 -- -123461.366 -- 2:40:53
+      184000 -- -54634.718 -- 0:29:00
+      185000 -- -54633.297 -- 0:28:45
+      186000 -- -54630.984 -- 0:28:30
+      66000 -- -123460.359 -- 2:40:15
+      187000 -- -54638.790 -- 0:28:15
+      188000 -- -54635.991 -- 0:28:00
+      189000 -- -54644.993 -- 0:27:45
+      67000 -- -123465.721 -- 2:39:40
+      190000 -- -54654.633 -- 0:27:30
+      191000 -- -54640.782 -- 0:27:14
+      68000 -- -123460.160 -- 2:38:59
+      192000 -- -54645.740 -- 0:27:00
+      193000 -- -54636.919 -- 0:26:45
+      194000 -- -54637.741 -- 0:26:29
+      69000 -- -123449.236 -- 2:38:24
+      195000 -- -54642.190 -- 0:26:14
+      196000 -- -54638.921 -- 0:25:59
+      197000 -- -54641.235 -- 0:25:44
+      70000 -- -123456.454 -- 2:37:46
+      198000 -- -54634.769 -- 0:25:30
+      199000 -- -54633.551 -- 0:25:15
+      200000 -- -54635.190 -- 0:25:01
+      71000 -- -123452.626 -- 2:37:07
+      201000 -- -54642.107 -- 0:24:45
+      202000 -- -54631.506 -- 0:24:31
+      72000 -- -123460.318 -- 2:36:29
+      203000 -- -54630.396 -- 0:24:15
+      204000 -- -54635.639 -- 0:24:00
+      205000 -- -54643.698 -- 0:23:45
+      73000 -- -123476.195 -- 2:35:50
+      206000 -- -54651.252 -- 0:23:30
+      207000 -- -54652.062 -- 0:23:15
+      208000 -- -54644.658 -- 0:23:00
+      74000 -- -123458.988 -- 2:35:08
+      209000 -- -54650.225 -- 0:22:45
+      210000 -- -54652.684 -- 0:22:30
+      211000 -- -54651.395 -- 0:22:15
+      75000 -- -123452.411 -- 2:34:30
+      212000 -- -54651.610 -- 0:22:00
+      213000 -- -54649.888 -- 0:21:45
+      214000 -- -54655.210 -- 0:21:30
+      76000 -- -123465.970 -- 2:33:51
+      215000 -- -54656.207 -- 0:21:15
+      216000 -- -54659.196 -- 0:21:00
+      77000 -- -123456.671 -- 2:33:12
+      217000 -- -54652.618 -- 0:20:45
+      218000 -- -54637.677 -- 0:20:30
+      219000 -- -54636.865 -- 0:20:15
+      78000 -- -123450.109 -- 2:32:33
+      220000 -- -54634.242 -- 0:20:00
+      221000 -- -54642.622 -- 0:19:45
+      222000 -- -54639.207 -- 0:19:30
+      79000 -- -123474.574 -- 2:31:54
+      223000 -- -54644.341 -- 0:19:15
+      224000 -- -54658.768 -- 0:19:00
+      225000 -- -54661.527 -- 0:18:45
+      80000 -- -123464.902 -- 2:31:20
+      226000 -- -54650.405 -- 0:18:30
+      227000 -- -54647.634 -- 0:18:14
+      228000 -- -54642.767 -- 0:18:00
+      81000 -- -123465.105 -- 2:30:46
+      229000 -- -54655.068 -- 0:17:45
+      230000 -- -54649.175 -- 0:17:30
+      231000 -- -54639.644 -- 0:17:15
+      82000 -- -123479.481 -- 2:30:07
+      232000 -- -54648.592 -- 0:16:59
+      233000 -- -54649.265 -- 0:16:45
+      234000 -- -54643.553 -- 0:16:30
+      83000 -- -123475.263 -- 2:29:27
+      235000 -- -54637.247 -- 0:16:15
+      236000 -- -54648.585 -- 0:15:59
+      84000 -- -123463.087 -- 2:28:45
+      237000 -- -54641.002 -- 0:15:45
+      238000 -- -54627.879 -- 0:15:30
+      239000 -- -54644.777 -- 0:15:14
+      85000 -- -123460.980 -- 2:28:05
+      240000 -- -54638.687 -- 0:14:59
+      241000 -- -54640.685 -- 0:14:44
+      242000 -- -54639.994 -- 0:14:29
+      86000 -- -123457.232 -- 2:27:26
+      243000 -- -54655.417 -- 0:14:15
+      244000 -- -54656.652 -- 0:13:59
+      245000 -- -54647.792 -- 0:13:44
+      87000 -- -123443.560 -- 2:26:46
+      246000 -- -54645.101 -- 0:13:29
+      247000 -- -54640.921 -- 0:13:14
+      248000 -- -54636.113 -- 0:12:59
+      88000 -- -123453.783 -- 2:26:06
+      249000 -- -54642.157 -- 0:12:44
+      250000 -- -54637.450 -- 0:12:29
+      89000 -- -123461.841 -- 2:25:24
+      251000 -- -54644.635 -- 0:12:14
+      252000 -- -54643.323 -- 0:11:59
+      253000 -- -54651.284 -- 0:11:44
+      90000 -- -123452.523 -- 2:24:44
+      254000 -- -54647.349 -- 0:11:29
+      255000 -- -54643.060 -- 0:11:14
+      256000 -- -54641.745 -- 0:10:59
+      91000 -- -123443.161 -- 2:24:02
+      257000 -- -54661.465 -- 0:10:44
+      258000 -- -54656.728 -- 0:10:29
+      259000 -- -54642.443 -- 0:10:14
+      92000 -- -123460.849 -- 2:23:22
+      260000 -- -54653.401 -- 0:09:59
+      261000 -- -54658.355 -- 0:09:44
+      262000 -- -54643.444 -- 0:09:29
+      93000 -- -123453.417 -- 2:22:42
+      263000 -- -54648.306 -- 0:09:14
+      264000 -- -54646.836 -- 0:08:59
+      265000 -- -54647.267 -- 0:08:44
+      94000 -- -123450.081 -- 2:22:00
+      266000 -- -54636.452 -- 0:08:29
+      267000 -- -54634.928 -- 0:08:14
+      95000 -- -123465.184 -- 2:21:20
+      268000 -- -54641.767 -- 0:07:59
+      269000 -- -54649.245 -- 0:07:44
+      270000 -- -54636.234 -- 0:07:29
+      96000 -- -123465.494 -- 2:20:42
+      271000 -- -54633.706 -- 0:07:14
+      272000 -- -54626.310 -- 0:06:59
+      273000 -- -54629.975 -- 0:06:44
+      97000 -- -123462.540 -- 2:20:02
+      274000 -- -54628.434 -- 0:06:29
+      275000 -- -54647.657 -- 0:06:14
+      276000 -- -54649.052 -- 0:05:59
+      98000 -- -123463.195 -- 2:19:24
+      277000 -- -54637.494 -- 0:05:44
+      278000 -- -54650.020 -- 0:05:29
+      279000 -- -54652.097 -- 0:05:14
+      99000 -- -123448.866 -- 2:18:42
+      280000 -- -54654.255 -- 0:04:59
+      281000 -- -54651.465 -- 0:04:44
+      100000 -- -123451.901 -- 2:18:00
+      282000 -- -54640.778 -- 0:04:29
+      283000 -- -54643.595 -- 0:04:14
+      284000 -- -54633.324 -- 0:03:59
+      101000 -- -123470.777 -- 2:17:19
+      285000 -- -54634.103 -- 0:03:44
+      286000 -- -54633.728 -- 0:03:29
+      287000 -- -54643.726 -- 0:03:14
+      102000 -- -123467.303 -- 2:16:43
+      288000 -- -54631.463 -- 0:02:59
+      289000 -- -54628.648 -- 0:02:44
+      290000 -- -54626.681 -- 0:02:29
+      103000 -- -123465.860 -- 2:16:03
+      291000 -- -54636.094 -- 0:02:14
+      292000 -- -54638.269 -- 0:01:59
+      293000 -- -54638.992 -- 0:01:44
+      104000 -- -123462.351 -- 2:15:24
+      294000 -- -54643.736 -- 0:01:29
+      295000 -- -54631.744 -- 0:01:14
+      296000 -- -54626.919 -- 0:00:59
+      105000 -- -123457.182 -- 2:14:44
+      297000 -- -54625.300 -- 0:00:44
+      298000 -- -54636.382 -- 0:00:29
+      299000 -- -54639.022 -- 0:00:14
+      106000 -- -123448.943 -- 2:14:03
+      300000 -- -54645.009 -- 0:00:00
+
+      Analysis completed in 1 hours 14 mins 51 seconds
+      Analysis used 4488.53 seconds of CPU time
+      Log likelihood of best state was -54618.49
+      Acceptance rates for the moves:
+         With prob.   (last 100)   chain accepted proposals by move
+            16.7 %     ( 22 %)     Multiplier(Alpha)
+             8.2 %     (  9 %)     ExtSPR(Tau,V)
+             5.8 %     (  3 %)     ExtTBR(Tau,V)
+            10.0 %     (  6 %)     NNI(Tau,V)
+             9.7 %     (  7 %)     ParsSPR(Tau,V)
+            26.9 %     ( 25 %)     Multiplier(V)
+            28.4 %     ( 28 %)     Nodeslider(V)
+            14.2 %     ( 21 %)     TLMultiplier(V)
+             0.1 %     (  0 %)     Uniform(Aamodel)
+      Summarizing parameters in file Heinze_mixed.p
+      Writing summary statistics to file Heinze_mixed.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of samples
+
+      Below is a rough plot of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use this      
+      graph to determine what the burn in for your analysis should be.  
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      analysis should be. When the log probability starts to plateau    
+      tionarity. When possible, run multiple analyses starting from dif-
+      ferent random trees; if the inferences you make for independent   
+      analyses are the same, this is reasonable evidence that the chains
+      have converged. You can use MrBayes to run several independent    
+      analyses simultaneously. During such a run, MrBayes will monitor  
+      the convergence of topologies. After the run has been completed,  
+      the 'sumt' and 'sump' functions will provide additional conver-   
+      gence diagnostics for all the parameters in your model. Remember  
+      that the burn in is the number of samples to discard. There are   
+      a total of ngen / samplefreq samples taken during a MCMC analysis.
+
+   +------------------------------------------------------------+ -54631.559
+   |                                                    *       |
+   |           **             *      *                       * *|
+   |                                                          * |
+   |   * *                       *                *         *   |
+   |* *          *                 **                      *    |
+   |                      *               *    *       *        |
+   |      *                     *     *                  *      |
+   |    *             *           *           *                 |
+   |                       **                      *  *         |
+   |               *   *               *   * *  *               |
+   | *      * *              *                   *              |
+   |       *         *   *                                *     |
+   |              *     *               *   *       **          |
+   |         *                 *                                |
+   |                *                    *                      |
+   +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -54655.731
+   ^                                                            ^
+   75000                                                       300000
+
+
+      Estimated marginal likelihoods for run sampled in file "Heinze_mixed.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+         (Values are saved to the file Heinze_mixed.lstat)
+
+      Arithmetic mean   Harmonic mean
+      --------------------------------
+        -54629.06        -54662.66
+      --------------------------------
+
+
+      Model parameter summaries for run sampled in file "Heinze_mixed":
+         Based on a total of 451 samples out of a total of 601 samples
+            from this analysis.
+         Parameter summaries saved to file "Heinze_mixed.pstat".
+
+                                            95% HPD Interval
+                                          --------------------
+      Parameter      Mean      Variance     Lower       Upper       Median     ESS*
+      -------------------------------------------------------------------------------
+      TL          3.749814    0.007022    3.580230    3.897047    3.749872    311.94
+      alpha       0.588386    0.000317    0.557083    0.624210    0.588678    265.69
+      -------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); ESS value 
+        below 100 may indicate that the parameter is undersampled. 
+
+
+      Model probabilities above 0.050
+      Estimates saved to file "Heinze_mixed.mstat".
+
+                              Posterior
+      Model                  Probability
+      ----------------------------------
+      aamodel[Jones]            1.000
+      ----------------------------------
+
+   Exiting mrbayes block
+   Reached end of file
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+
+      107000 -- -123462.287 -- 2:13:21
+      108000 -- -123472.961 -- 2:12:35
+      109000 -- -123458.532 -- 2:11:51
+      110000 -- -123454.787 -- 2:11:09
+      111000 -- -123456.578 -- 2:10:23
+      112000 -- -123453.495 -- 2:09:38
+      113000 -- -123462.970 -- 2:08:54
+      114000 -- -123458.287 -- 2:08:11
+      115000 -- -123456.223 -- 2:07:29
+      116000 -- -123454.454 -- 2:06:49
+      117000 -- -123448.180 -- 2:06:08
+      118000 -- -123450.017 -- 2:05:28
+      119000 -- -123449.231 -- 2:04:46
+      120000 -- -123456.150 -- 2:04:03
+      121000 -- -123460.914 -- 2:03:19
+      122000 -- -123447.903 -- 2:02:37
+      123000 -- -123459.182 -- 2:01:54
+      124000 -- -123440.506 -- 2:01:11
+      125000 -- -123442.664 -- 2:00:29
+      126000 -- -123441.424 -- 3:22:32
+      127000 -- -123453.393 -- 3:20:41
+      128000 -- -123452.340 -- 5:43:55
+      129000 -- -123468.300 -- 8:03:15
+      130000 -- -123457.239 -- 10:18:44
+      131000 -- -123457.117 -- 10:11:14
+      132000 -- -123458.020 -- 12:21:15
+      133000 -- -123452.238 -- 14:27:38
+      134000 -- -123447.048 -- 16:30:31
+      135000 -- -123451.041 -- 16:18:05
+      136000 -- -123450.662 -- 18:15:57
+      137000 -- -123462.356 -- 20:10:31
+      138000 -- -123455.940 -- 21:05:29
+      139000 -- -123455.152 -- 20:49:25
+      140000 -- -123456.575 -- 20:53:54
+      141000 -- -123451.469 -- 20:37:58
+      142000 -- -123462.679 -- 20:22:17
+      143000 -- -123456.445 -- 20:06:47
+      144000 -- -123481.370 -- 19:51:31
+      145000 -- -123470.083 -- 19:36:24
+      146000 -- -123475.448 -- 19:21:30
+      147000 -- -123455.128 -- 19:06:49
+      148000 -- -123461.004 -- 18:52:18
+      149000 -- -123457.292 -- 18:37:59
+      150000 -- -123459.398 -- 18:23:50
+      151000 -- -123457.794 -- 18:09:52
+      152000 -- -123456.225 -- 17:56:04
+      153000 -- -123461.203 -- 17:42:26
+      154000 -- -123466.214 -- 17:28:59
+      155000 -- -123454.645 -- 17:15:42
+      156000 -- -123451.790 -- 17:02:36
+      157000 -- -123453.257 -- 16:49:40
+      158000 -- -123460.626 -- 16:36:51
+      159000 -- -123465.277 -- 16:24:13
+      160000 -- -123470.114 -- 16:11:43
+      161000 -- -123467.805 -- 15:59:21
+      162000 -- -123460.887 -- 15:47:09
+      163000 -- -123449.736 -- 15:35:06
+      164000 -- -123466.687 -- 15:23:10
+      165000 -- -123476.865 -- 15:11:22
+      166000 -- -123464.466 -- 14:59:42
+      167000 -- -123453.621 -- 14:48:11
+      168000 -- -123452.010 -- 14:36:48
+      169000 -- -123468.614 -- 14:25:31
+      170000 -- -123466.348 -- 14:14:23
+      171000 -- -123459.318 -- 14:03:22
+      172000 -- -123467.512 -- 13:52:28
+      173000 -- -123466.304 -- 13:41:42
+      174000 -- -123469.015 -- 13:31:02
+      175000 -- -123467.676 -- 13:20:30
+      176000 -- -123457.085 -- 13:10:03
+      177000 -- -123449.572 -- 12:59:44
+      178000 -- -123464.232 -- 12:49:31
+      179000 -- -123469.204 -- 12:39:24
+      180000 -- -123469.107 -- 12:29:24
+      181000 -- -123461.167 -- 12:19:29
+      182000 -- -123454.644 -- 12:09:41
+      183000 -- -123449.521 -- 11:59:59
+      184000 -- -123454.387 -- 11:50:22
+      185000 -- -123465.960 -- 11:40:52
+      186000 -- -123464.126 -- 11:31:27
+      187000 -- -123470.183 -- 11:22:07
+      188000 -- -123446.088 -- 11:12:54
+      189000 -- -123451.639 -- 11:03:46
+      190000 -- -123451.874 -- 10:54:43
+      191000 -- -123461.517 -- 10:45:45
+      192000 -- -123440.828 -- 10:36:53
+      193000 -- -123448.709 -- 10:28:05
+      194000 -- -123462.512 -- 10:19:23
+      195000 -- -123460.041 -- 10:10:46
+      196000 -- -123453.459 -- 10:02:13
+      197000 -- -123456.383 -- 9:53:46
+      198000 -- -123456.254 -- 9:45:23
+      199000 -- -123454.820 -- 9:37:05
+      200000 -- -123456.448 -- 9:28:51
+      201000 -- -123459.064 -- 9:20:42
+      202000 -- -123454.688 -- 9:12:36
+      203000 -- -123459.045 -- 9:04:36
+      204000 -- -123460.701 -- 8:56:39
+      205000 -- -123455.452 -- 8:48:47
+      206000 -- -123454.663 -- 8:41:00
+      207000 -- -123463.765 -- 8:33:15
+      208000 -- -123467.720 -- 8:25:36
+      209000 -- -123464.622 -- 8:18:00
+      210000 -- -123466.403 -- 8:10:30
+      211000 -- -123462.875 -- 8:03:02
+      212000 -- -123459.493 -- 7:55:38
+      213000 -- -123474.115 -- 7:48:17
+      214000 -- -123466.385 -- 7:41:00
+      215000 -- -123480.815 -- 7:33:48
+      216000 -- -123470.475 -- 7:26:38
+      217000 -- -123465.643 -- 7:19:33
+      218000 -- -123460.469 -- 7:12:31
+      219000 -- -123454.468 -- 7:05:32
+      220000 -- -123452.138 -- 6:58:37
+      221000 -- -123458.652 -- 6:51:45
+      222000 -- -123454.543 -- 6:44:57
+      223000 -- -123460.108 -- 6:38:12
+      224000 -- -123475.175 -- 6:31:29
+      225000 -- -123460.580 -- 6:24:51
+      226000 -- -123460.779 -- 6:18:16
+      227000 -- -123454.161 -- 6:11:43
+      228000 -- -123453.581 -- 6:05:13
+      229000 -- -123458.649 -- 5:58:47
+      230000 -- -123464.731 -- 5:52:24
+      231000 -- -123454.059 -- 5:46:04
+      232000 -- -123478.421 -- 5:39:46
+      233000 -- -123476.534 -- 5:33:32
+      234000 -- -123462.674 -- 5:27:20
+      235000 -- -123458.458 -- 5:21:12
+      236000 -- -123464.487 -- 5:15:06
+      237000 -- -123456.724 -- 5:09:02
+      238000 -- -123455.076 -- 5:03:02
+      239000 -- -123472.270 -- 4:57:04
+      240000 -- -123470.231 -- 4:51:09
+      241000 -- -123449.920 -- 4:45:16
+      242000 -- -123448.540 -- 4:39:26
+      243000 -- -123453.832 -- 4:33:39
+      244000 -- -123450.351 -- 4:27:54
+      245000 -- -123456.992 -- 4:22:12
+      246000 -- -123462.660 -- 4:16:31
+      247000 -- -123456.327 -- 4:10:54
+      248000 -- -123452.547 -- 4:05:19
+      249000 -- -123461.451 -- 3:59:46
+      250000 -- -123457.273 -- 3:54:15
+      251000 -- -123452.797 -- 3:48:47
+      252000 -- -123464.098 -- 3:43:21
+      253000 -- -123462.863 -- 3:37:58
+      254000 -- -123468.140 -- 3:32:36
+      255000 -- -123450.434 -- 3:27:17
+      256000 -- -123467.374 -- 3:22:00
+      257000 -- -123455.300 -- 3:16:46
+      258000 -- -123461.844 -- 3:11:33
+      259000 -- -123460.296 -- 3:06:22
+      260000 -- -123456.725 -- 3:01:14
+      261000 -- -123447.689 -- 2:56:07
+      262000 -- -123474.468 -- 2:51:03
+      263000 -- -123460.453 -- 2:46:01
+      264000 -- -123461.056 -- 2:41:00
+      265000 -- -123451.933 -- 2:36:02
+      266000 -- -123458.346 -- 2:31:05
+      267000 -- -123456.838 -- 2:26:11
+      268000 -- -123451.552 -- 2:21:18
+      269000 -- -123456.818 -- 2:16:28
+      270000 -- -123451.291 -- 2:11:38
+      271000 -- -123448.962 -- 2:06:51
+      272000 -- -123449.275 -- 2:02:06
+      273000 -- -123436.197 -- 1:57:22
+      274000 -- -123450.874 -- 1:52:41
+      275000 -- -123450.654 -- 1:48:01
+      276000 -- -123453.536 -- 1:43:23
+      277000 -- -123456.104 -- 1:38:46
+      278000 -- -123451.110 -- 1:34:11
+      279000 -- -123452.299 -- 1:29:38
+      280000 -- -123458.756 -- 1:25:07
+      281000 -- -123454.509 -- 1:20:37
+      282000 -- -123448.850 -- 1:16:08

@@ -1,0 +1,4 @@
+[ID: 1181780789]
+[   Gen                --  Generation]
+[   <name1>(<name2>)$acc_run2      --  Acceptance rate of move <name1> changing parameter 1 in run 2]
+Gen	ExtSPR(Tau)$acc	ExtTBR(Tau)$acc	NNI(Tau)$acc	ParsSPR(Tau)$acc	Multiplier(V)$acc	Multiplier(V)$lambda	Nodeslider(V)$acc	TLMultiplier(V)$acc	TLMultiplier(V)$lambda	Uniform(Aamodel)$acc

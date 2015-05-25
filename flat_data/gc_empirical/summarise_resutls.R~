@@ -1,0 +1,5 @@
+library(phangorn)
+
+setwd('~/Desktop/flavivirus_runs/gc_empirical/')
+
+# GTR

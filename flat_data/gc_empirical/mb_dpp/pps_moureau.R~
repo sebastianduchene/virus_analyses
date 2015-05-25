@@ -1,0 +1,14 @@
+library(phangorn)
+library(methods)
+source('pps_dpp.R')
+
+mour_log <- read.table('Moureau_dpp.run1.p', head = T, skip = 1)
+mour_tre <- read.nexus('Moureau_dpp.run1.t')
+mour_data <- rem_gaps(phyDat(read.nexus.data('Moureau_aa.nexus'), type = 'AA'))
+
+s_1 <- simulate_pps_aa(mour_log, mour_tre, attr(mour_data, 'nr'), n_samples = 100)
+ml_1 <- sapply(s1, function(x) multlik(x))
+x2_1 <- sapply(s1, function(x) homogen_test(x))
+
+
+
