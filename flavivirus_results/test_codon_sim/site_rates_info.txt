@@ -1,0 +1,5 @@
+Partition_Index	Model_Name	Rate_Category	Rate_Probability	Rate_Factor
+1	None	1	0.25	0.7487
+1	None	2	0.25	0.0818
+1	None	3	0.25	0.1656
+1	None	4	0.25	3.0039

@@ -1,0 +1,36 @@
+#NEXUS
+[Data written by write.nexus.data.R, Tue Jul 28 15:58:20 2015]
+BEGIN DATA;
+  DIMENSIONS NTAX=10 NCHAR=90;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    t8       aatgattgtccgggccttactaggcaaagtcgacttacgaaaccgaggcgaagttcgctaactaatcagacagctatgtt
+    t9       aacgattgtccgggtcttactaggccaagtagacttgctaaacagaggcgatttacgctaactaatcagacgactatgtt
+    t6       aagggttgttcggggcttaatagaccaagtcgactagtgcaaccggggcgatttacgctaaggaatcaaacatgtatgtc
+    t7       aagggtttttcggggcttagtagaccaaatcgactagttcaacgggggcgattttcgctaaggaatctaacatgtatgcc
+    t4       aacggttgtccgcggcttagtaggccaagtcgactagttcaaccggggctacttgtgcgaacaaatctatcatcgatgtt
+    t5       aacggttgtccggggcttagtaggccaagtcgacttgctaaaccgaggcgatttacgctaactaatcaagcaactatgtt
+    t2       aagggttgttcggggcttagtagaccaagtagactagttcaacgggggcgatttacgctaaggaatcaaacatgtatttc
+    t3       aactgttggccggggattagtaggccaagtcgactagttcaaccggggctatttatgcgaacaaatctaacatcgatgtt
+    t1       aaggattgtccggggcttactaggccaagtcgacttgctaaaccgaggcgattttcccttactaatcagacagctatgtt
+    t10      aaagatggtactgggcttactaggctaagtcgtcttgcgaaaccgaggcgattatcactaactaatcagacagctatgct
+
+    t8       attcaatggt
+    t9       gttcaatggt
+    t6       tttaaatggt
+    t7       attaaaaggt
+    t4       tttaaatggt
+    t5       attaaacggt
+    t2       attaaatggt
+    t3       tttaaatggt
+    t1       tttcaatggt
+    t10      attcaatggt
+  ;
+END;
+
+Begin mrbayes;
+lset nst = 6 rates = gamma;
+mcmcp printfreq = 10;
+mcmcp ngen = 5000;
+mcmc;
+end;
