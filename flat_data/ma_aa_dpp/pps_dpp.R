@@ -30,7 +30,7 @@ multlik <- function(al){
 
 homogen_test <- function(seq_data){
     if(!is.matrix(seq_data)) seq_data <- as.character(seq_data)
-    sites <- unique(as.character(seq_data))
+    sites <- unique(as.vector(seq_data))
     count_sites <- function(seq) sapply(sites, function(x) sum(x == seq))
     contingency_table <- t(sapply(1:nrow(seq_data), function(x) count_sites(seq_data[x, ])))
     chi_test <- chisq.test(contingency_table)
