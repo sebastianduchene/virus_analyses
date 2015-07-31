@@ -1,0 +1,22 @@
+def fasta_to_matrix(file_name):
+    import numpy as np
+    import re
+    raw_lines = open(file_name, 'r').readlines()
+    seqs = [re.sub('\n', '', i) for i in raw_lines if len(re.findall('^>', i)) == 0]
+    seq_mat = np.empty(shape = (len(seqs), len(seqs[0])), dtype = str)
+    
+    for s in range(len(seqs)):
+        seq_mat[s, :] = list(seqs[s])
+    return seq_mat
+
+
+
+def dict_to_matrix(seq_dict):
+    import numpy as np
+    import re
+    
+    seq_mat = np.empty(shape = (len(seq_dict), len(seq_dict[seq_dict.keys()[0]])), dtype = str)
+    for s in range(len(seq_dict)):
+        seq_mat[s, :] = list(seq_dict[seq_dict.keys()[s]])
+    return seq_mat
+

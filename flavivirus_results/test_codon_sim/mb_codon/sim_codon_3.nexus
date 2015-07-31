@@ -36,7 +36,7 @@ END;
 
 
 Begin Mrbayes;
-lset nucmodel=codon omegavar=M3;
+lset nucmodel=codon omegavar=M3 rates=gamma;
 mcmcp printfreq = 10 ngen = 5000000;
 mcmc;
 end;
