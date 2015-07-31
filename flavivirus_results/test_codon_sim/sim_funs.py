@@ -87,10 +87,13 @@ def sim_codon(freqs, omegas, tree, nsites):
     freqs = codon_pars[0]
     omegas = codon_pars[1]
 
+    #temporary convert tree
+    
+
     gy_model = pyvolve.Model('MG', {'omega':omegas, 'state_freqs':freqs})
     # Note that the number of sites should be divided by 3!
 # test using three partitions
-    gy_partition = pyvolve.Partition(models = gy_model, size = nsites)
+    gy_partition = pyvolve.Partition(models = gy_model, size = nsites/3)
     gy_evolver = pyvolve.Evolver(partitions = gy_partition, tree = tr)
     gy_evolver()
     return dict_to_matrix(gy_evolver.get_sequences())
