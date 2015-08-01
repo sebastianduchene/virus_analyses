@@ -75,7 +75,6 @@ def sim_gtr(rates, freqs, alpha, tree, nsites):
     tr = pyvolve.read_tree(tree = tree)
     gtr_evolver = pyvolve.Evolver(partitions = gtr_partition, tree = tr)
     gtr_evolver()
-
     return dict_to_matrix(gtr_evolver.get_sequences())
 
 #
@@ -89,7 +88,6 @@ def sim_codon(freqs, omegas, tree, nsites):
 
     #temporary convert tree
     
-
     gy_model = pyvolve.Model('MG', {'omega':omegas, 'state_freqs':freqs})
     # Note that the number of sites should be divided by 3!
 # test using three partitions
@@ -98,4 +96,15 @@ def sim_codon(freqs, omegas, tree, nsites):
     gy_evolver()
     return dict_to_matrix(gy_evolver.get_sequences())
 
+#
+def var_sites(mat_dat):
+    return sum([len(set(''.join(mat_dat[:, i]))) > 1 for i in range(mat_dat.shape[1])]) / float(mat_dat.shape[1])
 
+#
+def fix_tree(tree):
+    import dendropy
+    tr = dendropy.Tree.get(data = tree, schema = 'newick')
+    for edge in tr.postorder_edge_iter():
+        if not edge.length is None:
+            edge.length = edge.length * 3
+    return tr.as_string(schema = 'newick')
