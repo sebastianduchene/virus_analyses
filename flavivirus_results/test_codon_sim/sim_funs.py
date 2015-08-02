@@ -108,3 +108,29 @@ def fix_tree(tree):
         if not edge.length is None:
             edge.length = edge.length * 3
     return tr.as_string(schema = 'newick')
+
+#
+def find_tree(target_tree, tree_list, sch1 = 'newick', sch2 = 'nexus'):
+    '''
+    Note that target_tree and tree_list must
+    '''
+    import dendropy as dp
+    tr = dp.Tree.get_from_path(target_tree, schema = sch1, rooting = 'force-unrooted')
+    tr.update_bipartitions()    
+    trs = dp.TreeList.get_from_path(tree_list, schema = sch2, taxon_namespace = tr.taxon_namespace, rooting = 'force-unrooted')
+
+    for t in trs:
+        t.update_bipartitions()
+    
+    tree_dists = list()
+    
+    for t_post in trs:
+        tree_dists.append(dp.calculate.treecompare.unweighted_robinson_foulds_distance(tr, t_post))
+        
+    tree_lens = [t.length() for t in trs]
+    true_len = tr.length()
+
+#    return [any([d == 0 for d in tree_dists]), true_len < max(tree_lens) and true_len > min(tree_lens)]
+    return [any([d == 0 for d in tree_dists]), abs(true_len - mean(tree_lens)) / true_len ]
+
+
